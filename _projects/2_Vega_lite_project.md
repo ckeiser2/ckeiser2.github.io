@@ -21,6 +21,12 @@ Choosing the fields precipitation chance and humidity levels was interesting bec
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/2_hw8.md" style="width: 100%"></vegachart>
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+
+
+
+Jupyter Notebook: http://localhost:8888/notebooks/1A%20ckeiser2%20IS%20445/Workbook.ipynb
+
+Source for Dataset:https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv
+
 
 
