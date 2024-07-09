@@ -11,7 +11,7 @@ Hi I am **{{ site.author.name }}**,<br>
 This is a look at my programming and game dev projects!
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Game Design Skills" source=site.data.Game_Design-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
