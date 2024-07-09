@@ -1,12 +1,12 @@
 - name: Unity
   percentage: Novice
   level: Novice
-  color: Blue
+  color: info
 
 - name: Godot
   percentage: 40
   level: Intermediate
-  color: Green
+  color: success
 
 - name: Unreal Engine
   percentage: 35
