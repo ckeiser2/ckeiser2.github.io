@@ -1,27 +1,19 @@
-- title: AMAZING STUFF
-  from: 2019
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Assistant Public Defender
+  from: May 2021
+  to: August 2021
+  description: Managing Montgomery county courthouse records, auditing, and inventory.
 
-- title: Student, Harvard CS
-  from: 2013
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Bachelors of Science : Information Sciences | University of Illinois
+  from: 2020
+  to: 2024
+  description: Minor in Game Studies and Design
+  
+- title: Classes
+description: GSD 405: Intro to Video Game Dev Process, GSD 403: Top Down Video Game Design, IS 226 Introduction to HCI
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: UIUC Peer Advisor
+  from: May 2023
+  to: May 2024
+  description: Assist students in the Information // Data Science programs. Manage iSchool website.
+
 
