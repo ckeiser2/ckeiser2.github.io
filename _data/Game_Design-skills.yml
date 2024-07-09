@@ -1,7 +1,7 @@
 - name: Unity
-  percentage: Novice
+  percentage: 35
   level: Novice
-  color: info
+  color: primary
 
 - name: Godot
   percentage: 40
