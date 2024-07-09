@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}**,<br>
-possibly a corgi, most definitely not!  Either way there are really neat things I am up to!
+This is a look at my programming and game dev projects!
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
