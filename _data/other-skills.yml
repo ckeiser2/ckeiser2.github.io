@@ -1,9 +1,9 @@
-- name: Adobe Photoshop
-  percentage: 95
-  level: Expert
+- name: UI
+  percentage: 65
+  level: Intermediate
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
-  level: Expert
+- name: Scripting
+  percentage: 65
+  level: Intermediate
   color: success
