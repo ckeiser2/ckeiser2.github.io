@@ -16,5 +16,5 @@ This is a look at my programming and game dev projects!
 </div>
 
 <div class="row">
-{% include about/timeline.yml %}
+{% include about/timeline.html %}
 </div>
