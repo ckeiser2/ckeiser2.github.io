@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Colton Keiser
 description         : >-
-                      Gamedev
+                      Welcome to my portfolio!
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : ckeiser2                    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
@@ -41,7 +41,7 @@ author:
   email             : coltonkeisee@icloud.com
 #  facebook          : your_username
   github            : ckeiser2 # JPN
-  linkedin          : https://www.linkedin.com/in/colton-keiser/
+  linkedin          : colton-keiser/
 # youtube           : your_channel_name
 # keybase           : your_username
 
