@@ -3,7 +3,7 @@
   level: Intermediate
   color: info
 
-- name: Scripting
-  percentage: 65
-  level: Intermediate
+- name: Python
+  percentage: 80
+  level: Experienced
   color: success
