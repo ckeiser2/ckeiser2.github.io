@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Colton Keiser
 description         : >-
-                      Welcome to my portfolio!
+                      Welcome to my portfolio! (Made in Ruby&Jekyll)
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : ckeiser2                    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
@@ -38,7 +38,7 @@ author:
   image             : https://ischool.illinois.edu/sites/default/files/styles/small/public/images/Colton%20Keiser-2.png?itok=jLskezYv
 #  behance           : your_username
 # dribbble          : your_username
-  email             : coltonkeisee@icloud.com
+  email             : colton.dev02@gmail.com
 #  facebook          : your_username
   github            : ckeiser2 # JPN
   linkedin          : colton-keiser/

@@ -1,7 +1,7 @@
 ---
 name: Python Interactive Data Visualization
 tools: [Python, ALtair]
-image: 
+image: assets\json\Humidity_ChanceofRain_Dashboard.json
 description: Using Python and packages like Altair, scraped data from the internet to make an interactive visualization
 custom_js:
   - vega.min
