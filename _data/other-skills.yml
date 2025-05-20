@@ -7,3 +7,8 @@
   percentage: 80
   level: Experienced
   color: success
+
+- name: Data Analysis
+  percentage: 60
+  level: Intermediate
+  color: accent
