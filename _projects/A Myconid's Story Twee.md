@@ -11,7 +11,7 @@ custom_js:
 ---
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/A Myconid's Story.html" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/pngs/html_story.png" style="width: 100%"></vegachart>
 
 <div class="left">
 {% include elements/button.html link="https://ckyzer2.itch.io/a-myconids-story" text="HTML Download" %}
