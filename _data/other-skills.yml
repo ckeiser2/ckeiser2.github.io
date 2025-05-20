@@ -1,14 +1,14 @@
-- name: UI
-  percentage: 65
-  level: Intermediate
-  color: info
+- name: C++
+  percentage: 35
+  level: Novice
+  color: primary
 
-- name: Python
-  percentage: 80
-  level: Experienced
+- name: C#
+  percentage: 40
+  level: Intermediate
   color: success
 
-- name: Data Analysis
-  percentage: 60
-  level: Intermediate
-  color: accent
+- name: Ruby
+  percentage: 35
+  level: Novice
+  color: secondary
