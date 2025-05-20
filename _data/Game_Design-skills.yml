@@ -8,7 +8,13 @@
   level: Intermediate
   color: success
 
-- name: Unreal Engine
+- name: Unreal Engine // Blueprint
   percentage: 35
   level: Novice
   color: secondary
+
+- name: Ruby
+  percentage: 40
+  level: Novice
+  color
+
