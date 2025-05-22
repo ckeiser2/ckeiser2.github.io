@@ -13,11 +13,8 @@ custom_js:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/pngs/html_story.png" style="width: 100%"></vegachart>
 
-<div class="left">
-{% include elements/button.html link="https://ckyzer2.itch.io/a-myconids-story" text="HTML Download" %}
+<div class="middle">
+{% include elements/button.html link="https://ckyzer2.itch.io/a-myconids-story" text="Itch.Io page with downloads for html & Twine" %}
 </div>
 
-<div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="Twee File" %}
-</div>
 
