@@ -12,4 +12,13 @@ custom_js:
 *Python* *:Altair Python Package*
 Jupyter Notebook: http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/video_essay_notebook.ipynb" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/py_project1.md" style="width: 100%"></vegachart>
+
+## Button Links
+<div class="left">
+{% include elements/button.html link="http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb" text="Jupyter Notebook" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="Dataset" %}
+</div>
