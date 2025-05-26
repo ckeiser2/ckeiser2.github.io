@@ -10,6 +10,6 @@ custom_js:
   - justcharts
 ---
 
-Jupyter Notebook: http://localhost:8888/notebooks/1A%20ckeiser2%20IS%20445/Workbook.ipynb
+Jupyter Notebook: http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/py_project1.md" style="width: 100%"></vegachart>
