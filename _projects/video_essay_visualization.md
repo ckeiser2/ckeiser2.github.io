@@ -10,9 +10,14 @@ custom_js:
   - justcharts
 ---
 *Python* *:Altair Python Package*
+
+# Description
+This was a project that takes web scraped data that showcases the scripts from multiple youtube video essays. The goal is to produced a striking visualization of the topics discussed the most in these videos. The videos cover a variety of topics including political but also on series like Lord of the Rings.
+
+
 Jupyter Notebook: http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/py_project1.md" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/pngs/d_viz.png" style="width: 100%"></vegachart>
 
 ## Button Links
 <div class="left">
