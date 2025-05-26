@@ -9,7 +9,7 @@ custom_js:
   - vega-embed.min
   - justcharts
 ---
-
+*Python* *:Altair Python Package*
 Jupyter Notebook: http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/py_project1.md" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/video_essay_notebook.ipynb" style="width: 100%"></vegachart>

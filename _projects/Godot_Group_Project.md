@@ -10,7 +10,8 @@ custom_js:
   - justcharts
 ---
 ## Skills Showcased
-*Godot* *In-Engine Tools* *C#*
+*Godot:* *In-Engine Tools* 
+*- Languages:C#*
 **Description**
 Group projects using godot where I served as lead designer. Designing the UI and multiple systems. Attached is a link to google drive that shows design documents and process along with a short demo.
 
