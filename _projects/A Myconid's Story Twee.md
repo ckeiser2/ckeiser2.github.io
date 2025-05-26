@@ -9,10 +9,14 @@ custom_js:
   - vega-embed.min
   - justcharts
 ---
+## Skills showcased
+*HTML & CSS* *In-Engine Tools* *JavaScript*
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/pngs/html_story.png" style="width: 100%"></vegachart>
 
+
+## Link to itch.io page
 <div class="left">
 {% include elements/button.html link="https://ckyzer2.itch.io/a-myconids-story" text="Itch.Io page with downloads for html & Twine" %}
 </div>
