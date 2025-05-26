@@ -15,7 +15,7 @@ custom_js:
 **Description**
 Group projects using godot where I served as lead designer. Designing the UI and multiple systems. Attached is a link to google drive that shows design documents and process along with a short demo.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/pngs/godot.png" style="width: 100%"></vegachart>
+<img src="{{ site.baseurl }}/assets/pngs/godot.png" alt="Data Visualization">
 
 
 ## Link to Design Docs and Demo video
