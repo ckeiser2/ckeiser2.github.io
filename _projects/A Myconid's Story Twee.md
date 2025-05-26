@@ -13,7 +13,7 @@ custom_js:
 *HTML & CSS* *In-Engine Tools* *JavaScript*
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/pngs/html_story.png" style="width: 100%"></vegachart>
+<img src="{{ site.baseurl }}/assets/pngs/html_story.png" alt="Data Visualization">
 
 
 ## Link to itch.io page
