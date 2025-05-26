@@ -2,7 +2,7 @@
 name: Python Interactive Data Visualization
 tools: [Python, ALtair]
 image: assets/pngs/graph.png
-description: Using Python and packages like Altair, scraped data from the internet to make an interactive visualization
+description: Using Python and packages like Altair | Data Analytics | Data Visualization
 custom_js:
   - vega.min
   - vega-lite.min
@@ -11,6 +11,11 @@ custom_js:
 ---
 
 *Python:Altair*
+
+# Description
+
+Using Python and packages like Altair, scraped data from the internet to make an interactive visualization
+
 
 # Notebook Link
 Jupyter Notebook: http://localhost:8888/notebooks/1A%20ckeiser2%20IS%20445/Workbook.ipynb
