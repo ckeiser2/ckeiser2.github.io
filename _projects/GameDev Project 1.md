@@ -20,5 +20,5 @@ custom_js:
 <vegachart schema-url="{{ site.baseurl }}/assets/pngs/rpg_game.png" style="width: 100%"></vegachart>
 
 <div class="left">
-{% include elements/button.html link="https://mediaspace.illinois.edu/media/t/1_ehux4bsv" text="Mediaspace video breaking down desing" %}
+{% include elements/button.html link="https://mediaspace.illinois.edu/media/t/1_ehux4bsv" text="Mediaspace video breaking down design" %}
 </div>
