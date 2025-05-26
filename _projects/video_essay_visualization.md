@@ -17,7 +17,7 @@ This was a project that takes web scraped data that showcases the scripts from m
 
 Jupyter Notebook: http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb
 
-<img src="assets/pngs/d_viz.png" alt="Data Visualization">
+<img src="{{ site.baseurl }}/assets/pngs/d_viz.png" alt="Data Visualization">
 
 ## Button Links
 <div class="left">
