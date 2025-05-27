@@ -1,8 +1,8 @@
 ---
 name: Twine - DND short story "A Myconid's Story"
-tools: [Twine, HTML, CSS]
+tools: [Twine, HTML/CSS, Javascript]
 image: assets/pngs/html_story.png
-description: Creative writing DND-esque story with multiple endings written in HTML and CSS along with the Twine engines own language to hold onto and remember variables. Showcases a choose your own adventure story with questionable writing but cool mechanics for being text based. Decisions matter and even programmed a stats system in one of the storylines. Clicking on page will send you to an itch.io page where you can enjoy the html or Twine's own language "Twee" version.
+description: Choose your own adventure story written in Twine engine. Multiple endings.
 custom_js:
   - vega.min
   - vega-lite.min
@@ -11,6 +11,9 @@ custom_js:
 ---
 ## Skills showcased
 *HTML & CSS* *In-Engine Tools* *JavaScript*
+
+# Description
+Creative writing DND-esque story with multiple endings written in HTML and CSS along with the Twine engines own language to hold onto and remember variables. Showcases a choose your own adventure story with questionable writing but cool mechanics for being text based. Decisions matter and even programmed a stats system in one of the storylines. Clicking on page will send you to an itch.io page where you can enjoy the html or Twine's own language "Twee" version.
 
 
 <img src="{{ site.baseurl }}/assets/pngs/html_story.png" alt="Data Visualization">
