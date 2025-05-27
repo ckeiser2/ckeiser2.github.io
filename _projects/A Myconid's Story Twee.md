@@ -1,5 +1,5 @@
 ---
-name: Twine - DND short story "A Myconid's Story"
+name: Javascript "Choose your own adventurer" Story
 tools: [Twine, HTML/CSS, Javascript, UI]
 image: assets/pngs/html_story.png
 description: Choose your own adventure short story.
