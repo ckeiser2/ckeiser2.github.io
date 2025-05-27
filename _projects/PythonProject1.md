@@ -14,7 +14,7 @@ custom_js:
 
 # Description
 
-Using Python and packages like Altair, scraped data from the internet to make an interactive visualization
+Using Python and packages like Altair, scraped data from the internet to make an interactive visualization. Showcases data pulled as of May 2023 of rainfall amongst the 50 states and for more details you can click and drag to get dynamic loading on the right graph. Works best on Windows desktop.
 
 
 # Notebook Link

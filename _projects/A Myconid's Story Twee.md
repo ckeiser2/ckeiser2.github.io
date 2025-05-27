@@ -1,8 +1,8 @@
 ---
 name: Twine - DND short story "A Myconid's Story"
-tools: [Twine, HTML/CSS, Javascript]
+tools: [Twine, HTML/CSS, Javascript, UI]
 image: assets/pngs/html_story.png
-description: Choose your own adventure story written in Twine engine. Multiple endings.
+description: Choose your own adventure short story.
 custom_js:
   - vega.min
   - vega-lite.min

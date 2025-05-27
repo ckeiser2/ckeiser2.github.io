@@ -2,7 +2,7 @@
 name: Text Analysis Visualization
 tools: [Python, Altair]
 image: assets/pngs/viz.png
-description: This was a project that takes web scraped data that showcases the citations from multiple youtube video essays. The goal is to produced a striking visualization of the topics discussed the most in these videos.
+description: Python project utilizing altair
 custom_js:
   - vega.min
   - vega-lite.min
@@ -12,7 +12,7 @@ custom_js:
 *Python* *:Altair Python Package*
 
 # Description
-This was a project that takes web scraped data that showcases the scripts from multiple youtube video essays. The goal is to produced a striking visualization of the topics discussed the most in these videos. The videos cover a variety of topics including political but also on series like Lord of the Rings.
+This was a project that takes web scraped data that showcases the scripts from multiple youtube video essays. The goal is to produced a striking visualization of the topics discussed the most in these videos. The videos cover a variety of topics including political but also on series like Lord of the Rings. As Youtube videos become a growing portion of content younger audiences consume these types of visualizations serve as as sign of some of the topics the youth and content creators are discussing.
 
 
 Jupyter Notebook: http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb
