@@ -14,5 +14,5 @@ custom_js:
 # Description
 Placeholder text
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/2_hw8.md" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/network.md" style="width: 100%"></vegachart>
 
