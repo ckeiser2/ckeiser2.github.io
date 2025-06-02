@@ -17,7 +17,7 @@ Placeholder text
 ## Button Links
 **This version will have working interactive graphs!!**
 
-<iframe src="assets\html\Network Analysis II-Solutions.html" width="600" height="400" title="Embedded Content"></iframe>
+{% include network.html %}
 
 
 # Network Clustering
