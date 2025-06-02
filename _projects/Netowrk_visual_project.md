@@ -16,9 +16,7 @@ Placeholder text
 
 ## Button Links
 **This version will have working interactive graphs!!**
-<div class="left">
-{% include elements/button.html link="{{ site.baseurl }}assets/html/Network Analysis II-Solutions.html" text="Jupyter Notebook Version" %}
-</div>
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Network Analysis II-Solutions.md" style="width: 100%"></vegachart>
 
