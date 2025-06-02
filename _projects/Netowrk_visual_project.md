@@ -20,7 +20,7 @@ Placeholder text
 
 
 
-## Network Clustering
+# Network Clustering
 
 
 ```python
@@ -1074,7 +1074,7 @@ output_notebook()
 
 <div class="bk-root">
         <a href="https://bokeh.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="2180">Loading BokehJS ...</span>
+        <span id="1001">Loading BokehJS ...</span>
     </div>
 
 
@@ -1123,7 +1123,7 @@ show(plot)
 
 
 
-<div class="bk-root" id="1a268e81-5593-43fc-b556-98fbb1d2e6ac" data-root-id="2183"></div>
+<div class="bk-root" id="eabcbbd6-9c43-4a09-8a7f-8fce79e6df49" data-root-id="1005"></div>
 
 
 
@@ -1186,7 +1186,7 @@ show(plot)
 
 
 
-<div class="bk-root" id="5a908ed1-530c-42a1-be5a-da7b6023266f" data-root-id="2474"></div>
+<div class="bk-root" id="ca45caff-85d5-41da-a8b7-ac752fab5f63" data-root-id="1193"></div>
 
 
 
@@ -1221,190 +1221,190 @@ modularity_color
 
 
 
-    {'Lyn-Corbray': '#084594',
-     'Moreo-Tumitis': '#084594',
-     'Jon-Umber-(Greatjon)': '#084594',
-     'Leo-Lefford': '#084594',
-     'Robert-Arryn': '#084594',
-     'Vardis-Egen': '#084594',
-     'Maege-Mormont': '#084594',
-     'Gunthor-son-of-Gurn': '#084594',
-     'Rodrik-Cassel': '#084594',
-     'Shae': '#084594',
-     'Hoster-Tully': '#084594',
-     'Marillion': '#084594',
-     'Nan': '#084594',
-     'Roose-Bolton': '#084594',
-     'Tytos-Blackwood': '#084594',
-     'Edmure-Tully': '#084594',
-     'Mord': '#084594',
-     'Eon-Hunter': '#084594',
-     'Jyck': '#084594',
-     'Colemon': '#084594',
-     'Hali': '#084594',
-     'Catelyn-Stark': '#084594',
-     'Robb-Stark': '#084594',
-     'Kevan-Lannister': '#084594',
-     'Joseth': '#084594',
-     'Kurleket': '#084594',
-     'Masha-Heddle': '#084594',
-     'Bran-Stark': '#084594',
-     'Stiv': '#084594',
-     'Rickon-Stark': '#084594',
-     'Wendel-Manderly': '#084594',
-     'Galbart-Glover': '#084594',
-     'Hallis-Mollen': '#084594',
-     'Morrec': '#084594',
-     'Hullen': '#084594',
-     'Brynden-Tully': '#084594',
-     'Chella': '#084594',
-     'Nestor-Royce': '#084594',
-     'Lysa-Arryn': '#084594',
-     'Harys-Swyft': '#084594',
-     'Mychel-Redfort': '#084594',
-     'Addam-Marbrand': '#084594',
-     'Osha': '#084594',
-     'Jory-Cassel': '#084594',
-     'Jonos-Bracken': '#084594',
-     'Donnel-Waynwood': '#084594',
-     'Walder-Frey': '#084594',
-     'Tyrion-Lannister': '#084594',
-     'Bronn': '#084594',
-     'Chiggen': '#084594',
-     'Luwin': '#084594',
-     'Jaime-Lannister': '#084594',
-     'Stevron-Frey': '#084594',
-     'Tywin-Lannister': '#084594',
-     'Wyl-(guard)': '#084594',
+    {'Heward': '#084594',
      'Rickard-Karstark': '#084594',
+     'Jon-Umber-(Greatjon)': '#084594',
+     'Catelyn-Stark': '#084594',
+     'Masha-Heddle': '#084594',
+     'Gunthor-son-of-Gurn': '#084594',
+     'Jyck': '#084594',
+     'Shae': '#084594',
+     'Roose-Bolton': '#084594',
+     'Lysa-Arryn': '#084594',
+     'Mord': '#084594',
+     'Stevron-Frey': '#084594',
+     'Leo-Lefford': '#084594',
+     'Luwin': '#084594',
+     'Vardis-Egen': '#084594',
+     'Robert-Arryn': '#084594',
+     'Stiv': '#084594',
+     'Donnel-Waynwood': '#084594',
+     'Robb-Stark': '#084594',
+     'Joseth': '#084594',
+     'Lyn-Corbray': '#084594',
+     'Tyrion-Lannister': '#084594',
+     'Nestor-Royce': '#084594',
+     'Harys-Swyft': '#084594',
+     'Tytos-Blackwood': '#084594',
      'Mya-Stone': '#084594',
+     'Galbart-Glover': '#084594',
      'Hodor': '#084594',
-     'Willis-Wode': '#084594',
-     'Heward': '#084594',
+     'Hallis-Mollen': '#084594',
+     'Bronn': '#084594',
+     'Kevan-Lannister': '#084594',
+     'Chella': '#084594',
+     'Colemon': '#084594',
      'Theon-Greyjoy': '#084594',
+     'Brynden-Tully': '#084594',
+     'Bran-Stark': '#084594',
+     'Tywin-Lannister': '#084594',
+     'Jonos-Bracken': '#084594',
+     'Addam-Marbrand': '#084594',
+     'Jaime-Lannister': '#084594',
+     'Marillion': '#084594',
+     'Rickon-Stark': '#084594',
+     'Jory-Cassel': '#084594',
+     'Hali': '#084594',
+     'Chiggen': '#084594',
+     'Maege-Mormont': '#084594',
+     'Kurleket': '#084594',
+     'Wendel-Manderly': '#084594',
+     'Hoster-Tully': '#084594',
+     'Mychel-Redfort': '#084594',
+     'Hullen': '#084594',
+     'Moreo-Tumitis': '#084594',
+     'Nan': '#084594',
+     'Morrec': '#084594',
+     'Wyl-(guard)': '#084594',
+     'Edmure-Tully': '#084594',
+     'Osha': '#084594',
+     'Rodrik-Cassel': '#084594',
+     'Walder-Frey': '#084594',
+     'Eon-Hunter': '#084594',
+     'Willis-Wode': '#084594',
      'Mace-Tyrell': '#2171b5',
-     'Meryn-Trant': '#2171b5',
+     'Syrio-Forel': '#2171b5',
+     'Ilyn-Payne': '#2171b5',
+     'Jeyne-Poole': '#2171b5',
+     'Jon-Arryn': '#2171b5',
      'Sandor-Clegane': '#2171b5',
-     'Joffrey-Baratheon': '#2171b5',
-     'Robert-Baratheon': '#2171b5',
-     'Janos-Slynt': '#2171b5',
+     'Maegor-I-Targaryen': '#2171b5',
      'Arys-Oakheart': '#2171b5',
+     'Pycelle': '#2171b5',
      'Sansa-Stark': '#2171b5',
-     'Mordane': '#2171b5',
+     'Hugh': '#2171b5',
+     'Vayon-Poole': '#2171b5',
+     'Barristan-Selmy': '#2171b5',
      'Balon-Swann': '#2171b5',
      'Boros-Blount': '#2171b5',
-     'Ilyn-Payne': '#2171b5',
      'Paxter-Redwyne': '#2171b5',
-     'Beric-Dondarrion': '#2171b5',
-     'Hugh': '#2171b5',
-     'Stannis-Baratheon': '#2171b5',
-     'Tommen-Baratheon': '#2171b5',
-     'Renly-Baratheon': '#2171b5',
      'Gregor-Clegane': '#2171b5',
-     'Barristan-Selmy': '#2171b5',
-     'Syrio-Forel': '#2171b5',
-     'Maegor-I-Targaryen': '#2171b5',
-     'Arya-Stark': '#2171b5',
-     'Petyr-Baelish': '#2171b5',
-     'Myrcella-Baratheon': '#2171b5',
-     'Jon-Arryn': '#2171b5',
-     'Varys': '#2171b5',
      'Loras-Tyrell': '#2171b5',
-     'Jeyne-Poole': '#2171b5',
-     'Pycelle': '#2171b5',
-     'Mycah': '#2171b5',
+     'Robert-Baratheon': '#2171b5',
+     'Arya-Stark': '#2171b5',
+     'Tommen-Baratheon': '#2171b5',
      'Lancel-Lannister': '#2171b5',
-     'Cersei-Lannister': '#2171b5',
+     'Janos-Slynt': '#2171b5',
+     'Renly-Baratheon': '#2171b5',
+     'Petyr-Baelish': '#2171b5',
+     'Mordane': '#2171b5',
      'Thoros-of-Myr': '#2171b5',
-     'Vayon-Poole': '#2171b5',
-     'Joss': '#4292c6',
-     'Aegon-I-Targaryen': '#4292c6',
-     'Porther': '#4292c6',
-     'Raymun-Darry': '#4292c6',
+     'Beric-Dondarrion': '#2171b5',
+     'Myrcella-Baratheon': '#2171b5',
+     'Varys': '#2171b5',
+     'Mycah': '#2171b5',
+     'Stannis-Baratheon': '#2171b5',
+     'Cersei-Lannister': '#2171b5',
+     'Meryn-Trant': '#2171b5',
+     'Joffrey-Baratheon': '#2171b5',
      'Brandon-Stark': '#4292c6',
-     'Cayn': '#4292c6',
+     'Rickard-Stark': '#4292c6',
+     'Desmond': '#4292c6',
+     'Harwin': '#4292c6',
      'Daryn-Hornwood': '#4292c6',
-     'High-Septon-(fat_one)': '#4292c6',
+     'Varly': '#4292c6',
+     'Aegon-I-Targaryen': '#4292c6',
+     'Torrhen-Karstark': '#4292c6',
+     'Balon-Greyjoy': '#4292c6',
+     'Eddard-Stark': '#4292c6',
+     'Porther': '#4292c6',
+     'Tomard': '#4292c6',
+     'Jacks': '#4292c6',
+     'Oswell-Whent': '#4292c6',
+     'Cayn': '#4292c6',
+     'Tobho-Mott': '#4292c6',
      'Gerold-Hightower': '#4292c6',
-     'Clement-Piper': '#4292c6',
-     'Karyl-Vance': '#4292c6',
      'Tregar': '#4292c6',
      'Aerys-II-Targaryen': '#4292c6',
+     'Raymun-Darry': '#4292c6',
      'Howland-Reed': '#4292c6',
-     'Torrhen-Karstark': '#4292c6',
-     'Tobho-Mott': '#4292c6',
-     'Varly': '#4292c6',
-     'Arthur-Dayne': '#4292c6',
-     'Rickard-Stark': '#4292c6',
-     'Balon-Greyjoy': '#4292c6',
-     'Wylla': '#4292c6',
-     'Marq-Piper': '#4292c6',
-     'Gendry': '#4292c6',
-     'Oswell-Whent': '#4292c6',
-     'Tomard': '#4292c6',
-     'Harwin': '#4292c6',
-     'Desmond': '#4292c6',
-     'Jacks': '#4292c6',
-     'Alyn': '#4292c6',
+     'Karyl-Vance': '#4292c6',
      'Lyanna-Stark': '#4292c6',
-     'Eddard-Stark': '#4292c6',
-     'Randyll-Tarly': '#6baed6',
-     'Jafer-Flowers': '#6baed6',
-     'Waymar-Royce': '#6baed6',
-     'Donal-Noye': '#6baed6',
-     'Albett': '#6baed6',
-     'Benjen-Stark': '#6baed6',
-     'Hobb': '#6baed6',
-     'Will-(prologue)': '#6baed6',
-     'Jaremy-Rykker': '#6baed6',
-     'Aemon-Targaryen-(Maester-Aemon)': '#6baed6',
-     'Yoren': '#6baed6',
-     'Othor': '#6baed6',
-     'Mance-Rayder': '#6baed6',
-     'Bowen-Marsh': '#6baed6',
-     'Matthar': '#6baed6',
+     'High-Septon-(fat_one)': '#4292c6',
+     'Arthur-Dayne': '#4292c6',
+     'Joss': '#4292c6',
+     'Alyn': '#4292c6',
+     'Wylla': '#4292c6',
+     'Clement-Piper': '#4292c6',
+     'Gendry': '#4292c6',
+     'Marq-Piper': '#4292c6',
      'Dywen': '#6baed6',
-     'Halder': '#6baed6',
-     'Jon-Snow': '#6baed6',
-     'Grenn': '#6baed6',
+     'Todder': '#6baed6',
+     'Jafer-Flowers': '#6baed6',
+     'Randyll-Tarly': '#6baed6',
+     'Jeor-Mormont': '#6baed6',
+     'Dareon': '#6baed6',
+     'Albett': '#6baed6',
+     'Chett': '#6baed6',
+     'Donal-Noye': '#6baed6',
+     'Waymar-Royce': '#6baed6',
      'Pypar': '#6baed6',
      'Rast': '#6baed6',
-     'Chett': '#6baed6',
-     'Clydas': '#6baed6',
-     'Gared': '#6baed6',
-     'Todder': '#6baed6',
+     'Grenn': '#6baed6',
      'Samwell-Tarly': '#6baed6',
-     'Jeor-Mormont': '#6baed6',
+     'Othor': '#6baed6',
      'Alliser-Thorne': '#6baed6',
-     'Dareon': '#6baed6',
-     'Rhaegar-Targaryen': '#9ecae1',
-     'Ogo': '#9ecae1',
-     'Aggo': '#9ecae1',
-     'Doreah': '#9ecae1',
-     'Jhogo': '#9ecae1',
-     'Jorah-Mormont': '#9ecae1',
+     'Yoren': '#6baed6',
+     'Clydas': '#6baed6',
+     'Bowen-Marsh': '#6baed6',
+     'Mance-Rayder': '#6baed6',
+     'Jon-Snow': '#6baed6',
+     'Gared': '#6baed6',
+     'Halder': '#6baed6',
+     'Benjen-Stark': '#6baed6',
+     'Will-(prologue)': '#6baed6',
+     'Aemon-Targaryen-(Maester-Aemon)': '#6baed6',
+     'Jaremy-Rykker': '#6baed6',
+     'Hobb': '#6baed6',
+     'Matthar': '#6baed6',
+     'Haggo': '#9ecae1',
      'Illyrio-Mopatis': '#9ecae1',
-     'Jommo': '#9ecae1',
-     'Eroeh': '#9ecae1',
+     'Viserys-Targaryen': '#9ecae1',
+     'Rakharo': '#9ecae1',
+     'Ogo': '#9ecae1',
      'Daenerys-Targaryen': '#9ecae1',
+     'Jommo': '#9ecae1',
+     'Drogo': '#9ecae1',
+     'Jhiqui': '#9ecae1',
+     'Quaro': '#9ecae1',
+     'Rhaegar-Targaryen': '#9ecae1',
+     'Eroeh': '#9ecae1',
+     'Rhaego': '#9ecae1',
+     'Aggo': '#9ecae1',
      'Irri': '#9ecae1',
+     'Jorah-Mormont': '#9ecae1',
      'Cohollo': '#9ecae1',
      'Fogo': '#9ecae1',
+     'Doreah': '#9ecae1',
      'Qotho': '#9ecae1',
-     'Rakharo': '#9ecae1',
-     'Quaro': '#9ecae1',
-     'Viserys-Targaryen': '#9ecae1',
-     'Rhaego': '#9ecae1',
-     'Drogo': '#9ecae1',
-     'Haggo': '#9ecae1',
-     'Jhiqui': '#9ecae1',
+     'Jhogo': '#9ecae1',
      'Mirri-Maz-Duur': '#9ecae1',
+     'Conn': '#c6dbef',
+     'Timett': '#c6dbef',
      'Ulf-son-of-Umar': '#c6dbef',
-     'Shagga': '#c6dbef',
      'Coratt': '#c6dbef',
      'Dolf': '#c6dbef',
-     'Timett': '#c6dbef',
-     'Conn': '#c6dbef',
+     'Shagga': '#c6dbef',
      'Hosteen-Frey': '#deebf7',
      'Jared-Frey': '#deebf7',
      'Danwell-Frey': '#deebf7'}
@@ -1455,7 +1455,7 @@ show(plot)
 
 
 
-<div class="bk-root" id="8d13d8e0-102a-4546-8822-1380511785c3" data-root-id="2795"></div>
+<div class="bk-root" id="ca328662-a308-4437-9807-54dde9dfbdc6" data-root-id="1411"></div>
 
 
 
@@ -1519,7 +1519,7 @@ show(plot)
 
 
 
-<div class="bk-root" id="675bf832-9215-4632-9473-dc1e2a6b249f" data-root-id="3130"></div>
+<div class="bk-root" id="9b331f53-066b-41fc-9d4a-442e11957b40" data-root-id="1643"></div>
 
 
 
@@ -1586,7 +1586,7 @@ show(plot)
 
 
 
-<div class="bk-root" id="c0d3b011-e18f-4d4c-b478-6281e840cf76" data-root-id="3486"></div>
+<div class="bk-root" id="584b19a4-aa92-4016-8d81-e008b4db85e6" data-root-id="1896"></div>
 
 
 
@@ -1660,7 +1660,7 @@ show(plot)
 
 
 
-<div class="bk-root" id="78b17cc1-6ea6-42b4-8f03-cc99c2c3c7be" data-root-id="3875"></div>
+<div class="bk-root" id="802990be-3cd7-4ebd-8bd6-db659b7eb754" data-root-id="2182"></div>
 
 
 
@@ -1882,7 +1882,7 @@ show(plot)
 
 
 
-<div class="bk-root" id="9476c0a6-ea3a-45fe-adc9-6396b2183fc7" data-root-id="4298"></div>
+<div class="bk-root" id="46f22bcd-dfb3-4c4b-a838-72a5093dcc2b" data-root-id="2502"></div>
 
 
 
@@ -1907,7 +1907,7 @@ print(people) # what the list looks like
 
     1368
     187
-    ['Mace-Tyrell', 'Aggo', 'Sandor-Clegane', 'Robert-Arryn', 'Illyrio-Mopatis', 'Karyl-Vance', 'Janos-Slynt', 'Othor', 'Bowen-Marsh', 'Tytos-Blackwood', 'Rickard-Stark', 'Matthar', 'Grenn', 'Marq-Piper', 'Wylla', 'Mordane', 'Mord', 'Harwin', 'Colemon', 'Gared', 'Alyn', 'Lyanna-Stark', 'Eddard-Stark', 'Bran-Stark', 'Masha-Heddle', 'Aegon-I-Targaryen', 'Rickon-Stark', 'Tommen-Baratheon', 'Jared-Frey', 'Tregar', 'Mychel-Redfort', 'Cohollo', 'Gendry', 'Mycah', 'Mya-Stone', 'Hodor', 'Heward', 'Joss', 'Dolf', 'Ogo', 'Meryn-Trant', 'Albett', 'Joffrey-Baratheon', 'Rodrik-Cassel', 'Hoster-Tully', 'Dywen', 'Timett', 'Quaro', 'Tomard', 'Pypar', 'Jyck', 'Catelyn-Stark', 'Robb-Stark', 'Paxter-Redwyne', 'Kurleket', 'Mirri-Maz-Duur', 'Randyll-Tarly', 'Porther', 'Barristan-Selmy', 'Morrec', 'Hullen', 'Doreah', 'Donal-Noye', 'Waymar-Royce', 'Nestor-Royce', 'Maegor-I-Targaryen', 'Daenerys-Targaryen', 'Arya-Stark', 'Torrhen-Karstark', 'Harys-Swyft', 'Jon-Arryn', 'Qotho', 'Halder', 'Jon-Snow', 'Rakharo', 'Jaime-Lannister', 'Conn', 'Stevron-Frey', 'Lancel-Lannister', 'Rickard-Karstark', 'Samwell-Tarly', 'Varly', 'Vayon-Poole', 'Danwell-Frey', 'Moreo-Tumitis', 'Gerold-Hightower', 'Benjen-Stark', 'Vardis-Egen', 'Maege-Mormont', 'Shae', 'Robert-Baratheon', 'Howland-Reed', 'Mance-Rayder', 'Marillion', 'Arthur-Dayne', 'Nan', 'Roose-Bolton', 'Sansa-Stark', 'Edmure-Tully', 'Viserys-Targaryen', 'Oswell-Whent', 'Rast', 'Ulf-son-of-Umar', 'Ilyn-Payne', 'Desmond', 'Drogo', 'Dareon', 'Haggo', 'Rhaegar-Targaryen', 'Stannis-Baratheon', 'Wendel-Manderly', 'Gregor-Clegane', 'Cayn', 'Hallis-Mollen', 'Raymun-Darry', 'Brynden-Tully', 'Jhogo', 'Aerys-II-Targaryen', 'Will-(prologue)', 'Hosteen-Frey', 'Jaremy-Rykker', 'Yoren', 'Petyr-Baelish', 'Osha', 'Tobho-Mott', 'Jory-Cassel', 'Varys', 'Loras-Tyrell', 'Cersei-Lannister', 'Thoros-of-Myr', 'Jhiqui', 'Lyn-Corbray', 'Jafer-Flowers', 'High-Septon-(fat_one)', 'Jon-Umber-(Greatjon)', 'Leo-Lefford', 'Gunthor-son-of-Gurn', 'Eroeh', 'Irri', 'Arys-Oakheart', 'Coratt', 'Jacks', 'Eon-Hunter', 'Chett', 'Balon-Swann', 'Shagga', 'Boros-Blount', 'Hali', 'Kevan-Lannister', 'Beric-Dondarrion', 'Joseth', 'Hugh', 'Stiv', 'Galbart-Glover', 'Renly-Baratheon', 'Brandon-Stark', 'Daryn-Hornwood', 'Chella', 'Clement-Piper', 'Jorah-Mormont', 'Hobb', 'Jommo', 'Syrio-Forel', 'Lysa-Arryn', 'Aemon-Targaryen-(Maester-Aemon)', 'Addam-Marbrand', 'Myrcella-Baratheon', 'Fogo', 'Jonos-Bracken', 'Walder-Frey', 'Tyrion-Lannister', 'Donnel-Waynwood', 'Balon-Greyjoy', 'Bronn', 'Chiggen', 'Luwin', 'Jeyne-Poole', 'Pycelle', 'Tywin-Lannister', 'Clydas', 'Rhaego', 'Wyl-(guard)', 'Todder', 'Willis-Wode', 'Jeor-Mormont', 'Alliser-Thorne', 'Theon-Greyjoy']
+    ['Haggo', 'Mace-Tyrell', 'Daryn-Hornwood', 'Masha-Heddle', 'Gunthor-son-of-Gurn', 'Jeor-Mormont', 'Conn', 'Sandor-Clegane', 'Arys-Oakheart', 'Stevron-Frey', 'Robert-Arryn', 'Robb-Stark', 'Drogo', 'Joseth', 'Balon-Swann', 'Raymun-Darry', 'Rhaegar-Targaryen', 'Nestor-Royce', 'Jared-Frey', 'High-Septon-(fat_one)', 'Jorah-Mormont', 'Cohollo', 'Benjen-Stark', 'Wylla', 'Tommen-Baratheon', 'Ulf-son-of-Umar', 'Lancel-Lannister', 'Rakharo', 'Torrhen-Karstark', 'Balon-Greyjoy', 'Jacks', 'Marillion', 'Tobho-Mott', 'Chiggen', 'Kurleket', 'Wendel-Manderly', 'Hoster-Tully', 'Mychel-Redfort', 'Howland-Reed', 'Myrcella-Baratheon', 'Lyanna-Stark', 'Rhaego', 'Jon-Snow', 'Irri', 'Cersei-Lannister', 'Kevan-Lannister', 'Porther', 'Qotho', 'Brandon-Stark', 'Heward', 'Dywen', 'Varly', 'Ilyn-Payne', 'Aegon-I-Targaryen', 'Dareon', 'Shae', 'Roose-Bolton', 'Eddard-Stark', 'Lysa-Arryn', 'Mord', 'Luwin', 'Oswell-Whent', 'Barristan-Selmy', 'Boros-Blount', 'Clydas', 'Harys-Swyft', 'Galbart-Glover', 'Robert-Baratheon', 'Fogo', 'Clement-Piper', 'Randyll-Tarly', 'Shagga', 'Chella', 'Brynden-Tully', 'Bran-Stark', 'Addam-Marbrand', 'Daenerys-Targaryen', 'Jommo', 'Jory-Cassel', 'Renly-Baratheon', 'Hosteen-Frey', 'Mordane', 'Thoros-of-Myr', 'Nan', 'Edmure-Tully', 'Timett', 'Dolf', 'Aemon-Targaryen-(Maester-Aemon)', 'Tytos-Blackwood', 'Joss', 'Will-(prologue)', 'Willis-Wode', 'Joffrey-Baratheon', 'Marq-Piper', 'Rickard-Stark', 'Jon-Umber-(Greatjon)', 'Catelyn-Stark', 'Jeyne-Poole', 'Chett', 'Maegor-I-Targaryen', 'Pycelle', 'Leo-Lefford', 'Waymar-Royce', 'Sansa-Stark', 'Stiv', 'Hugh', 'Rast', 'Donnel-Waynwood', 'Tyrion-Lannister', 'Yoren', 'Loras-Tyrell', 'Arthur-Dayne', 'Jaremy-Rykker', 'Hobb', 'Matthar', 'Arya-Stark', 'Illyrio-Mopatis', 'Todder', 'Harwin', 'Theon-Greyjoy', 'Viserys-Targaryen', 'Jonos-Bracken', 'Cayn', 'Janos-Slynt', 'Rickon-Stark', 'Maege-Mormont', 'Hali', 'Petyr-Baelish', 'Samwell-Tarly', 'Quaro', 'Beric-Dondarrion', 'Moreo-Tumitis', 'Eroeh', 'Morrec', 'Stannis-Baratheon', 'Alyn', 'Gared', 'Osha', 'Walder-Frey', 'Eon-Hunter', 'Mirri-Maz-Duur', 'Rickard-Karstark', 'Desmond', 'Syrio-Forel', 'Coratt', 'Jafer-Flowers', 'Ogo', 'Danwell-Frey', 'Jon-Arryn', 'Jyck', 'Donal-Noye', 'Tomard', 'Vardis-Egen', 'Vayon-Poole', 'Lyn-Corbray', 'Jhiqui', 'Othor', 'Alliser-Thorne', 'Karyl-Vance', 'Bowen-Marsh', 'Aggo', 'Mya-Stone', 'Gregor-Clegane', 'Paxter-Redwyne', 'Halder', 'Doreah', 'Hodor', 'Hallis-Mollen', 'Bronn', 'Colemon', 'Albett', 'Tywin-Lannister', 'Jaime-Lannister', 'Gendry', 'Tregar', 'Gerold-Hightower', 'Pypar', 'Aerys-II-Targaryen', 'Grenn', 'Hullen', 'Varys', 'Mycah', 'Wyl-(guard)', 'Mance-Rayder', 'Rodrik-Cassel', 'Meryn-Trant', 'Jhogo']
     
 
 
@@ -1934,8 +1934,8 @@ print("The number of total edges in the network is {}".format(edge_num)) # let's
      [0. 0. 0. ... 0. 0. 0.]
      [0. 0. 0. ... 0. 0. 0.]
      ...
-     [0. 0. 0. ... 0. 1. 0.]
-     [0. 0. 0. ... 1. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
+     [0. 0. 0. ... 0. 0. 0.]
      [0. 0. 0. ... 0. 0. 0.]]
     The number of total edges in the network is 684
     
@@ -1960,38 +1960,38 @@ deg_num_dict # what the dictionary looks like
 
 
 
-    {2: 26,
-     6: 16,
-     16: 1,
-     3: 17,
-     7: 10,
+    {6: 16,
+     2: 26,
      1: 48,
-     5: 14,
-     11: 3,
-     4: 8,
-     66: 1,
-     32: 1,
-     9: 3,
-     8: 5,
-     30: 2,
-     18: 3,
-     43: 1,
-     35: 2,
-     14: 4,
-     21: 2,
-     27: 1,
-     15: 3,
-     37: 1,
-     29: 1,
-     10: 3,
-     12: 3,
-     50: 1,
-     19: 1,
-     26: 1,
-     17: 1,
      13: 2,
+     3: 17,
+     16: 1,
+     35: 2,
+     19: 1,
+     7: 10,
+     4: 8,
+     14: 4,
+     8: 5,
+     5: 14,
+     37: 1,
+     30: 2,
+     9: 3,
+     66: 1,
+     15: 3,
+     18: 3,
+     50: 1,
+     11: 3,
+     32: 1,
+     21: 2,
+     43: 1,
      46: 1,
-     22: 1}
+     27: 1,
+     26: 1,
+     12: 3,
+     10: 3,
+     22: 1,
+     29: 1,
+     17: 1}
 
 
 
@@ -2140,10 +2140,92 @@ while iLinks != edge_num: # so, we will loop until the requirement of the edge n
     print(iLinks) # print the number of total links in the network
 ```
 
+    695
+    680
+    683
+    692
+    681
     666
-    669
-    654
+    667
+    722
     711
+    678
+    675
+    660
+    663
+    702
+    680
+    694
+    699
+    678
+    680
+    701
+    709
+    678
+    670
+    667
+    668
+    659
+    735
+    666
+    649
+    702
+    654
+    695
+    679
+    711
+    664
+    697
+    702
+    650
+    715
+    701
+    679
+    680
+    675
+    682
+    663
+    681
+    658
+    682
+    681
+    678
+    734
+    703
+    674
+    666
+    662
+    711
+    687
+    655
+    691
+    665
+    655
+    648
+    675
+    635
+    645
+    712
+    682
+    670
+    683
+    669
+    690
+    673
+    697
+    701
+    646
+    707
+    640
+    678
+    677
+    693
+    631
+    679
+    674
+    666
+    658
+    671
     684
     
 
@@ -2161,7 +2243,7 @@ plt.legend() # display the legend
 
 
 
-    <matplotlib.legend.Legend at 0x20f40ed1950>
+    <matplotlib.legend.Legend at 0x2327f866a50>
 
 
 
@@ -2170,21 +2252,3 @@ plt.legend() # display the legend
 ![png](output_52_1.png)
     
 
-
-# Task 5
-
-The network observed in A Song of Ice and Fire Book 1 exhibits a significant degree distribution overlap with the simulated network using the Preferential Attachment model. In a Preferential Attachment model, the probability of any given node acquiring a new edge is proportional to the number of edges it already possesses. What does this correspondence suggest about character relationships in <i>A Song of Ice and Fire</i>? Once again, If you're not familiar with the work, feel free to speculate on potential reasons. Please include the discussion in the next cell (markdown).
-
-
-
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/text_analysis.md" style="width: 100%"></vegachart>
-
-## Button Links
-<div class="left">
-{% include elements/button.html link="http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb" text="Jupyter Notebook" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="Dataset" %}
-</div>
