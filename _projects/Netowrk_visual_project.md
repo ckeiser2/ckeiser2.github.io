@@ -1,7 +1,7 @@
 ---
 name: Network Clustering Analysis
 tools: [Python, Networkx]
-image: assets/pngs/output_2.png
+image: assets/pngs/bokeh_plot (7).png
 description: Python project utilizing networkx
 custom_js:
   - vega.min
@@ -17,8 +17,7 @@ Placeholder text
 ## Button Links
 **This version will have working interactive graphs!!**
 
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Network Analysis II-Solutions.md" style="width: 100%"></vegachart>
+<iframe src="assets\html\Network Analysis II-Solutions.html" width="600" height="400" title="Embedded Content"></iframe>
 
 
 # Network Clustering
