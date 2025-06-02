@@ -17,7 +17,9 @@ Placeholder text
 ## Button Links
 **This version will have working interactive graphs!!**
 <div class="left">
-{% include elements/button.html link="assets\html\Network Analysis II-Solutions.html" text="Jupyter Notebook Version" %}
+<vegachart schema-url="{{ site.baseurl }}/assets/html/Network Analysis II-Solutions.html" style="width: 100%"></vegachart>
+
+{% include elements/button.html link="{{ site.baseurl }}assets/html/Network Analysis II-Solutions.html" text="Jupyter Notebook Version" %}
 </div>
 
 # Network Clustering
