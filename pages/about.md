@@ -13,7 +13,7 @@ Graduated from the University of Illinois with a Bachelor's in Information Scien
 <div class="row">
 {% include about/skills.html title="Technical Skills" source=site.data.Game_Design-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-{% include about/skills.html title="Data Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Data Skills" source=site.data.data-skills %}
 </div>
 
 <div class="row">

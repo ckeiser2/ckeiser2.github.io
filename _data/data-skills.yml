@@ -1,14 +1,14 @@
-- name: UI
-  percentage: 65
+- name: SQL
+  percentage: 40
   level: Intermediate
   color: info
 
-- name: Design
+- name: Python
   percentage: 80
   level: Experienced
   color: success
 
-- name: Game Development
-  percentage: 30
-  level: Novice
+- name: Data Analysis
+  percentage: 60
+  level: Intermediate
   color: accent

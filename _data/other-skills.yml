@@ -9,6 +9,6 @@
   color: success
 
 - name: Ruby
-  percentage: 35
-  level: Novice
+  percentage: 50
+  level: Intermediate
   color: secondary
