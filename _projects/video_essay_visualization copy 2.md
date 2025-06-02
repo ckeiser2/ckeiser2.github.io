@@ -1,3 +1,20 @@
+---
+name: TF-DIF
+tools: [Python, Pandas]
+image: assets/pngs/speech_graph.png
+description: Python project text analysis using TF-IDF 
+custom_js:
+  - vega.min
+  - vega-lite.min
+  - vega-embed.min
+  - justcharts
+---
+# Summary
+The Project below was a python project doing a text analysis of president speeches. This involves associating a TF-IDF score and creating a data visualization as shown below
+
+<img src="{{ site.baseurl }}/assets/pngs/speech_graph.png" alt="Data Visualization">
+
+
 # Text Based Analysis
 While calculating the most frequent words in a text can be useful, the most frequent words in a text usually aren’t the most interesting words in a text, even if we get rid of stop words. TF-IDF is a method that builds off word frequency but it more specifically tries to identify the most distinctively frequent or significant words in a document.<br><br>
 TF-IDF = term_frequency * inverse_document_frequency<br>
@@ -1889,13 +1906,13 @@ word_frequency_df.sort_values(by=['Act', 'tfidf'], ascending=[True,False]).group
 
 
 
-# Task 1
+# Part 1
 
 Examine the top 5 words based on TF-IDF score for each act. Refer to the definition of TF-IDF and address the following questions: (1) What characteristics must a word possess to become a "top word" with the highest TF-IDF score? (2) How does a TF-IDF score differ from raw word frequency? (3) Which types of words would become top words when using raw word frequency?
 
 For these top words its important for them to have a mixture of 'term_frequency' and 'document_frequency'. In order for them to have a high TF-IDF score. This indicates that these words are distinct and significant words in the document. This differs from raw word frequency as this is trying to measure the significance/impactfulness to these words and their importance/impact to the overall document. The types of words that would be the top words would be common phrases or words with less impact like 'and', 'the' etc
 
-# Task 2
+# Part 2
 
 
 ```python
@@ -4313,7 +4330,7 @@ tfidf_df.sort_values(by=['document','tfidf'], ascending=[True,False]).groupby(['
 
 
 
-# Task 3
+# Part 3
 
 
 ```python
@@ -4850,7 +4867,7 @@ text = base.mark_text(baseline='middle').encode(
 
 
 
-# Task 4
+# Part 4
 
 Based on our explorations of TF-IDF scores, address the following questions: (1) What limitations do you think the TF-IDF method has? (2) Can you suggest another potential application for this method? Please provide an example from either academic research or real-life situations and explain the advantages that TF-IDF calculation could offer in that context.
 
@@ -4918,7 +4935,7 @@ def calculate_sentiment(text):
     return compound_score
 ```
 
-# Task 5
+# Part 5
 
 Calculate the sentiment score of Trump's tweets by applying the "calculate_sentiment" function to the "text" column of the "trump" dataframe. Afterward, print the texts and sentiment scores for the first five tweets in the dataframe. Do the sentiment scores align with your understanding of the text? Keep in mind that the sentiment score ranges from -1 (totally negative) to 1 (totally positive).<br>
 Include your codes in the following cell (code) and the discussion in the next cell (markdown).

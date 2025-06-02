@@ -16,7 +16,6 @@ This was a project that takes web scraped data that showcases the scripts from m
 
 
 Jupyter Notebook: http://localhost:8888/notebooks/AAA%20IS%20310%20Programming/Video%20Essay%20Project%20(1).ipynb
-<vegachart schema-url="{{ site.baseurl }}/assets/json/text_analysis.md" style="width: 100%"></vegachart>
 
 <img src="{{ site.baseurl }}/assets/pngs/d_viz.png" alt="Data Visualization">
 
