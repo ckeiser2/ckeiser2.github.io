@@ -1,30 +1,3 @@
----
-name: Network Clustering Analysis
-tools: [Python, Networkx]
-image: assets/pngs/output_2.png
-description: Python project utilizing networkx
-custom_js:
-  - vega.min
-  - vega-lite.min
-  - vega-embed.min
-  - justcharts
----
-*Python* *:Altair Python Package*
-
-# Description
-Placeholder text
-
-## Button Links
-**This version will have working interactive graphs!!**
-<div class="left">
-{% include elements/button.html link="{{ site.baseurl }}assets/html/Network Analysis II-Solutions.html" text="Jupyter Notebook Version" %}
-</div>
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Network Analysis II-Solutions.md" style="width: 100%"></vegachart>
-
-
-# Network Clustering
-
 
 ```python
 # Load the libraries
@@ -1032,7 +1005,6 @@ networkx.transitivity(G_b3)
 
 # Basic Network Visualization with Bokeh
 
-<img src="{{ site.baseurl }}/assets/pngs/bokeh_plot (2).png" alt="Basic Network Visualization with Bokeh">
 
 ```python
 # Changing bokeh version because the latest version will result in bugs in network visualization
@@ -1135,7 +1107,6 @@ show(plot)
 
 # Network with Nodes Sized and Colored By Attribute (Degree)
 
-<img src="{{ site.baseurl }}/assets/pngs/bokeh_plot (1).png" alt="Network with Nodes Sized and Colored By Attribute (Degree)">
 
 ```python
 # Include Bokeh color palettes
@@ -1199,7 +1170,6 @@ show(plot)
 
 # Network with Nodes Colored By Attribute (Community)¶
 
-<img src="{{ site.baseurl }}/assets/pngs/bokeh_plot (1).png" alt="Network with Nodes Colored By Attribute (Community)">
 
 ```python
 # Import community detection module and get the communities
@@ -1469,7 +1439,6 @@ show(plot)
 
 # Task 3
 
-<img src="{{ site.baseurl }}/assets/pngs/bokeh_plot (4).png" alt="Task 3">
 
 ```python
 # Create a visualization, where node size is based on eigenvector centrality, and color is based on community.
@@ -1534,7 +1503,6 @@ show(plot)
 
 # Network with Responsive Highlighting
 
-<img src="{{ site.baseurl }}/assets/pngs/bokeh_plot (5).png" alt="Network with Responsive Highlighting">
 
 ```python
 # Include EdgesAndLinkedNodes, NodesAndLinkedEdges
@@ -1602,7 +1570,6 @@ show(plot)
 
 # Network with Labels
 
-<img src="{{ site.baseurl }}/assets/pngs/bokeh_plot (6).png" alt="Network with Responsive Labels">
 
 ```python
 # Include LabelSet
@@ -1806,7 +1773,6 @@ asoiaf_b3_df
 
 # Task 4
 
-<img src="{{ site.baseurl }}/assets/pngs/bokeh_plot (7).png" alt="Task 4">
 
 ```python
 # Duplicate the process above to create a visualization based on data of A Song of Ice and Fire Book 3.
@@ -2181,6 +2147,8 @@ plt.legend() # display the legend
     
 
 
+# Task 5
 
+The network observed in A Song of Ice and Fire Book 1 exhibits a significant degree distribution overlap with the simulated network using the Preferential Attachment model. In a Preferential Attachment model, the probability of any given node acquiring a new edge is proportional to the number of edges it already possesses. What does this correspondence suggest about character relationships in <i>A Song of Ice and Fire</i>? Once again, If you're not familiar with the work, feel free to speculate on potential reasons. Please include the discussion in the next cell (markdown).
 
 
