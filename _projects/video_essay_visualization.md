@@ -2,7 +2,7 @@
 name: Text Analysis Visualization
 tools: [Python, Altair]
 image: assets/pngs/viz.png
-description: Python project utilizing altair
+description: Python project | Data Scraping | Altair
 custom_js:
   - vega.min
   - vega-lite.min
