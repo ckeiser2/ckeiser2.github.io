@@ -16,8 +16,12 @@ Short project for a class. Utilziing the RPGmaker engine, created a small demo w
 
 
 
+```
+<video width="320" height="240" controls>
+#  <source src="{{ site.baseurl }}/assets/mp4/rpg_demo.mp4" type="video/mp4">
+#</video>
+```
 
-<img src="{{ site.baseurl }}/assets/pngs/rpg_game.png" alt="Data Visualization">
 
 <div class="left">
 {% include elements/button.html link="https://mediaspace.illinois.edu/media/t/1_ehux4bsv" text="Mediaspace video breaking down design" %}
