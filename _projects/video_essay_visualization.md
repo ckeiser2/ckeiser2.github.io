@@ -15,6 +15,7 @@ custom_js:
 This was a project that takes web scraped data that showcases the scripts from multiple youtube video essays. The goal is to produced a striking visualization of the topics discussed the most in these videos. The videos cover a variety of topics including political but also on series like Lord of the Rings. As Youtube videos become a growing portion of content younger audiences consume these types of visualizations serve as as sign of some of the topics the youth and content creators are discussing.
 
 
+
 ```python
 import pandas as pd
 import numpy as np
