@@ -18,3 +18,4 @@ Interactive data visualization that showcases web pulled data of different car b
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 
+{% python_notebooks test_generate_plots.ipynb %}
