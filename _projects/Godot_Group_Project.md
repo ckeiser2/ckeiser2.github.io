@@ -15,11 +15,8 @@ custom_js:
 **Description**
 Group projects using godot where I served as lead designer. Designing the UI and multiple systems. Attached is a link to google drive that shows design documents and process along with a short demo.
 
-```
-<video width="320" height="240" controls>
-#  <source src="{{ site.baseurl }}/assets/mp4/godot_demo.mp4" type="video/mp4">
-#</video>
-```
+<img src="{{ site.baseurl }}/assets/pngs/godot.png" alt="Breakdown of story nodes in Twine Engine">
+
 
 ## Link to Design Docs and Demo video
 <div class="left">

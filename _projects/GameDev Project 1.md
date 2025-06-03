@@ -15,12 +15,8 @@ custom_js:
 Short project for a class. Utilziing the RPGmaker engine, created a small demo with a variety of hard coded creature encounters and cutscenes. Attached is a recording of me breaking down how the encounters, abilities, and levels through a mediaspace video. Showcases core engineering concepts like end user appeal, technical knowledge and user first design.
 
 
+<img src="{{ site.baseurl }}/assets/pngs/rpg_game.png" alt="Breakdown of story nodes in Twine Engine">
 
-```
-<video width="320" height="240" controls>
-#  <source src="{{ site.baseurl }}/assets/mp4/rpg_demo.mp4" type="video/mp4">
-#</video>
-```
 
 
 <div class="left">
