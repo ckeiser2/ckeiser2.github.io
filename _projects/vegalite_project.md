@@ -24,8 +24,6 @@ from vega_datasets import data as datasets
 
 source = datasets.cars()
 source.rename(columns={"Miles_per_Gallon":"Miles per Gallon"}, inplace=True)
-Turns out source is a data frame!
-source
 type(source)
 import altair as alt
 
