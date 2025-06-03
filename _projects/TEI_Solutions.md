@@ -1,7 +1,7 @@
 ---
 name: TEI Solutions
 tools: [Python, Beautiful Soup, Parsing]
-image: assets/pngs/table.png
+image: assets/pngs/TEI.png
 description: Converting HTML data to TEI 
 custom_js:
   - vega.min
