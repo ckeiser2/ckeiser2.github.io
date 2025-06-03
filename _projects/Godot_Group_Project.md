@@ -1,5 +1,5 @@
 ---
-name: Godot Game
+name: Godot Game [2048 Knight]
 tools: [C#, Design, Group Project]
 image: assets/pngs/godot.png
 description: C# in Godot Engine, Designed the UI and multiple systems.
@@ -13,14 +13,14 @@ custom_js:
 *Godot:* *In-Engine Tools* 
 *- Languages:C#*
 **Description**
-Group projects using godot where I served as lead designer. Designing the UI and multiple systems. Attached is a link to google drive that shows design documents and process along with a short demo.
+Group project using Godot (A game engine that uses C#) where I served as lead designer. Original concept for 2048 Knight was an RPG interpretation of the game 2048 essentially inspired by its grid based desgin. Some of my roles on the team involved designing the UI and multiple systems. As the scope for the project was only a few weeks of the course the scope was incredibly small especially when considering learning an engine in that time. But showcases my role as designer in which I created proof of concepts through desgin documents. Addtionally, implemented the final UI for the game, including the health bar, inventory system and more. Attached below is a link to google drive that shows design documents and process along with a short demo.
 
-<img src="{{ site.baseurl }}/assets/pngs/godot.png" alt="Breakdown of story nodes in Twine Engine">
+<img src="{{ site.baseurl }}/assets/pngs/godot.png" alt="2048: Knight">
 
 
 ## Link to Design Docs and Demo video
 <div class="left">
-{% include elements/button.html link="https://drive.google.com/drive/folders/1dto-Zi-uxVf74VmDnFghap7MDluKhQaL?usp=drive_link" text="Google drive with Demo video along with design documents" %}
+{% include elements/button.html link="https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing" text="Google Drive with Demo video" %}
 </div>
 
 
@@ -28,4 +28,4 @@ Group projects using godot where I served as lead designer. Designing the UI and
 
 
 
-external_url: https://drive.google.com/drive/folders/1dto-Zi-uxVf74VmDnFghap7MDluKhQaL?usp=drive_link
+external_url: https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing

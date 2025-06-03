@@ -12,13 +12,17 @@ custom_js:
 *JavaScript* *:With // In-Engine Tools*
 
 
-Short project for a class. Utilziing the RPGmaker engine, created a small demo with a variety of hard coded creature encounters and cutscenes. Attached is a recording of me breaking down how the encounters, abilities, and levels through a mediaspace video. Showcases core engineering concepts like end user appeal, technical knowledge and user first design.
+Short project for a class. Utilziing the RPGmaker engine, created a small demo with a variety of hard coded creature encounters and cutscenes. Attached is a recording of me breaking down how the encounters, abilities, and levels through a mediaspace video. Showcases core engineering concepts like end user appeal, technical knowledge and user first design. Below is a button that takes you to a mediaspace video of me breaking down my design decisions. I would embed the video but github doesn't allow videos of a certain size and I'm in the process of remediating that. 
+
+Something I wanted to play around with in this demo was programming cutscenes, character interactions set by triggers from the player. Unique character designs that scale in fun ways. For example I have a marksman character that has an ability called "Luck of the Draw" that scales off their Luck stat. Additionally, different kinds of characters that are unqiue takes on common design archetypes such as Tanks built around bolstering a teammate like my Blacksmith character or more of a typical paladin design.
 
 
-<img src="{{ site.baseurl }}/assets/pngs/rpg_game.png" alt="Breakdown of story nodes in Twine Engine">
+
+
+<img src="{{ site.baseurl }}/assets/pngs/rpg_game.png" alt="RPGMaker Demo">
 
 
 
 <div class="left">
-{% include elements/button.html link="https://mediaspace.illinois.edu/media/t/1_ehux4bsv" text="Mediaspace video breaking down design" %}
+{% include elements/button.html link="https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing" text="Google Drive with Link to Demo" %}
 </div>
