@@ -18,4 +18,23 @@ Interactive data visualization that showcases web pulled data of different car b
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 
-{% python_notebooks test_generate_plots.ipynb %}
+
+```python
+from vega_datasets import data as datasets
+
+source = datasets.cars()
+source.rename(columns={"Miles_per_Gallon":"Miles per Gallon"}, inplace=True)
+Turns out source is a data frame!
+source
+type(source)
+import altair as alt
+
+chart = alt.Chart(source).mark_circle(size=60).encode(
+    x='Horsepower',
+    y='Miles per Gallon',
+    color='Origin',
+    tooltip=['Name', 'Origin', 'Horsepower', 'Miles per Gallon']
+).interactive()
+chart
+
+```
