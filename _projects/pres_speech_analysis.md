@@ -1,5 +1,5 @@
 ---
-name: TF-DIF
+name: TF-IDF
 tools: [Python, Pandas]
 image: assets/pngs/speech_graph.png
 description: Python project text analysis using TF-IDF 
@@ -10,7 +10,7 @@ custom_js:
   - justcharts
 ---
 # Summary
-The Project below was a python project doing a text analysis of president speeches. This involves associating a TF-IDF score and creating a data visualization as shown below
+The Project below was a python project doing a text analysis of president speeches. This involves associating a TF-IDF score and creating a data visualization as shown below. TF-IDF is measured by the following formula (*TF-IDF = term_frequency * inverse_document_frequency*) while the red dots on the graph below showcase "target words" in the analysis.
 
 <img src="{{ site.baseurl }}/assets/pngs/speech_graph.png" alt="Data Visualization">
 
