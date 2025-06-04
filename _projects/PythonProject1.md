@@ -22,7 +22,7 @@ Jupyter Notebook: http://localhost:8888/notebooks/1A%20ckeiser2%20IS%20445/Workb
 # Dataset Link
 Source for Dataset:https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: left;">
   <vegachart schema-url="{{ site.baseurl }}/assets/json/2_hw8.md" style="width: 100%;"></vegachart>
 </div>
 
