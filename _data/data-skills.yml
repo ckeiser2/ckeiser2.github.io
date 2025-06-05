@@ -1,14 +1,14 @@
 - name: SQL
   percentage: 40
-  level: Intermediate
+  level: Junior
   color: info
 
 - name: Python
   percentage: 80
-  level: Experienced
+  level: Industry Experienced
   color: success
 
 - name: Data Analysis
   percentage: 60
-  level: Intermediate
+  level: Junior
   color: accent

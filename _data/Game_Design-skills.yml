@@ -1,14 +1,14 @@
-- name: UI
-  percentage: 65
+- name: Javascript
+  percentage: 40
   level: Intermediate
   color: info
 
 - name: Design
-  percentage: 80
-  level: Experienced
+  percentage: 40
+  level: Junior
   color: success
 
 - name: Game Development
   percentage: 30
-  level: Novice
+  level: Junior
   color: accent
