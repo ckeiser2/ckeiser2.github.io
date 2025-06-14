@@ -18,7 +18,7 @@ Something I wanted to play around with in this demo was programming cutscenes, c
 
 
 <iframe width="560" height="315"
-    src="https://www.youtube.com/watch?v=LX-gkUDabX0"
+    src="https://www.youtube.com/embed/LX-gkUDabX0"
     frameborder="0"
     allowfullscreen>
 </iframe>
