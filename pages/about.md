@@ -22,3 +22,11 @@ Graduated from the University of Illinois with a Bachelor's in Information Scien
 <div class="row">
 {% include about/timeline.html %}
 </div>
+
+[preview]<img src="{{ site.baseurl }}/assets/html/Resume_Colton_Keiser.pdf" alt="Data Visualization">
+
+
+
+<div class="left">
+{% include elements/button.html link="{{ site.baseurl }}/assets/html/Resume_Colton_Keiser.pdf" text="Resume" %}
+</div>
