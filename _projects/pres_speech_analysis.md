@@ -16,11 +16,13 @@ The Project below was a python project doing a text analysis of president speech
 
 
 # Text Based Analysis
+```markdown
 While calculating the most frequent words in a text can be useful, the most frequent words in a text usually aren’t the most interesting words in a text, even if we get rid of stop words. TF-IDF is a method that builds off word frequency but it more specifically tries to identify the most distinctively frequent or significant words in a document.<br><br>
 TF-IDF = term_frequency * inverse_document_frequency<br>
 term_frequency = number of times a given term appears in document<br>
 inverse_document_frequency = log(total number of documents / number of documents with term) + 1<br><br>
 The reason we take the inverse, or flipped fraction, of document frequency is to boost the rarer words that occur in relatively few documents.
+```
 
 # TF-IDF: Preprocessing
 
@@ -28,12 +30,11 @@ The reason we take the inverse, or flipped fraction, of document frequency is to
 ```python
 import pandas as pd # dealing with dataframe
 import json # dealing with json datafiles
-```
-
-The books is available at: https://babel.hathitrust.org/cgi/pt?id=loc.ark:/13960/t6737fd9d
 
 
-```python
+#The books is available at: https://babel.hathitrust.org/cgi/pt?id=loc.ark:/13960/t6737fd9d
+
+
 # Load the json datafile
 file_path = 'Data/loc.ark+=13960=t6737fd9d.json'
 with open(file_path, 'r', encoding='utf-8') as file:
