@@ -1,4 +1,4 @@
-# Online CV Templete for IS445
+# Jekyll Template for Static Site Generation
 
  It is a way to host an online CV with interactive visualizations.
 

@@ -10,6 +10,9 @@ custom_js:
   - justcharts
 ---
 
+*Python - Packages: Beautiful Soup*
+*html*
+
 ## TEI Summary
 
 The Text Encoding Initiative (TEI) Guidelines make recommendations about suitable ways of representing those features of textual resources which need to be identified explicitly in order to facilitate processing by computer programs. Essentially it is a standardized way of formatting text in order for programs to process it. Translating Text to TEI helps with cleansing the data for better computing.
