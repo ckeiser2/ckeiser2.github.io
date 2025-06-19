@@ -1,14 +1,14 @@
 - name: Javascript
   percentage: 40
   level: Intermediate
-  color: info
+  color: pastel-purple
 
 - name: Design
   percentage: 40
   level: Junior
-  color: success
+  color: border
 
 - name: Game Development
   percentage: 30
   level: Junior
-  color: accent
+  color: link
