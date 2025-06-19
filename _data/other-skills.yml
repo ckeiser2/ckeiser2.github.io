@@ -1,12 +1,12 @@
 - name: C++
   percentage: 35
   level: Junior
-  color: highlight
+  color: success
 
 - name: C#
   percentage: 40
   level: Junior
-  color: pastel-blue
+  color: warning
 
 - name: Ruby
   percentage: 50
