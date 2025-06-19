@@ -1,7 +1,7 @@
 - name: Javascript
   percentage: 40
   level: Intermediate
-  color: accent
+  color: info
 
 - name: Design
   percentage: 40
@@ -11,4 +11,4 @@
 - name: Game Development
   percentage: 30
   level: Junior
-  color: primary
+  color: warning
