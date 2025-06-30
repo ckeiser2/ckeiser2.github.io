@@ -7,7 +7,7 @@
 ## Download & install
 
  1. clone this repo or download the contents
- 1. make sure you have Ruby *properly* installed [Ruby_Link]https://rubyinstaller.org/
+ 1. make sure you have Ruby *properly* installed [Ruby_Link]https://www.ruby-lang.org/en/
  1. Install using `bundle install` 
  1. Host locally with `bundle exec jekyll serve` or `bundle exec jekyll serve -l` (live reload)
  1. Modify files as needed (see sections below)
