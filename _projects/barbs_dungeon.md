@@ -1,8 +1,8 @@
 ---
 name: Barb's Dungeon
 tools: [Designer, Game Dev, Group Project]
-image: assets/pngs/html_story.png
-description: Close project apart of GSD 403 @ UIUC. Over the span of a semester design different aspects of a game.
+image: assets/pngs/barb_dungeon_systems.png
+description: Group project apart of GSD 403 @ UIUC. Over the span of a semester design different aspects of a game.
 custom_js:
   - vega.min
   - vega-lite.min
@@ -10,6 +10,14 @@ custom_js:
   - justcharts
 ---
 
+```md
+Group project where I was tasked with the main responsibilities of creating core systems to the game including *Player Experience, Level Design and Core Systems*. Also, while writing the narrative in which I was inspired by other RPGs such as *Fear and Hunger | Dark Souls | Dark and Darker*. Below you will a see button that will take you to the google drive where my team and I collaborated on design documents including Proof of concepts, Tone Targets, Beat by Beat and more!
+
+
+
+
+
+```
 
 
 
