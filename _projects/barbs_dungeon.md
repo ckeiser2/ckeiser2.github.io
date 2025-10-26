@@ -19,7 +19,7 @@ Group project where over the span of a few weeks my group was tasked with design
 
 *Asset List*: This deliverable was created to communicate with artists and the rest of the team around what are the assets, models and animations would would need to develop the game. This allows for clear and concise communciation over what are the steps in development to achieve a working beta.
 
-{% include office_viewer.html file="assets/xlsx/project_data.xlsx"%}
+{% include office_viewer.html file="assets/csv/project_data.xlsx"%}
 
 
 *Proof of Conconcept*: This proof of concept visualizes at a high level what the level up // skill tree system would look like.
