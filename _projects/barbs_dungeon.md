@@ -18,11 +18,17 @@ Group project where over the span of a few weeks my group was tasked with design
 *Feature List*: The Feature List helps the developers understand what are the core systems within the game. Additionally, focusing the team by ranking systems by their difficulty to both implement and design. Also, features risks around the system along with designer notes on other core aspects of the system.
 
 *Asset List*: This deliverable was created to communicate with artists and the rest of the team around what are the assets, models and animations would would need to develop the game. This allows for clear and concise communciation over what are the steps in development to achieve a working beta.
-<embed src="{{ site.baseurl }}/assets/csv/game_design_docs.xlsx" alt = "Vision Canvas // Feature List // Asset List" type="application/xlsx" width="100%" height="600px" />
+<embed src="{{ site.baseurl }}/assets/csv/game_design_docs.xlsx"
+       type="application/pdf"
+       width="100%"
+       height="600px" />
 
 
 *Proof of Conconcept*: This proof of concept visualizes at a high level what the level up // skill tree system would look like.
-<embed src="{{ site.baseurl }}/assets/docx/skill_tree_poc.docx" alt = "Proof of Concept Level up system" type="application/docx" width="100%" height="600px" />
+<embed src="{{ site.baseurl }}/assets/pdf/skill_tree_poc.pdf"
+       type="application/pdf"
+       width="100%"
+       height="600px" />
 
 
 
