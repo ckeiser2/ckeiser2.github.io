@@ -19,18 +19,11 @@ Group project where over the span of a few weeks my group was tasked with design
 
 *Asset List*: This deliverable was created to communicate with artists and the rest of the team around what are the assets, models and animations would would need to develop the game. This allows for clear and concise communciation over what are the steps in development to achieve a working beta.
 
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src={{ site.baseurl }}/assets/csv/game_design_docs.xlsx"
-        width="100%"
-        height="600px"
-        frameborder="0">
-</iframe>
+{% include office_viewer.html file="assets/xlsx/project_data.xlsx"%}
+
 
 *Proof of Conconcept*: This proof of concept visualizes at a high level what the level up // skill tree system would look like.
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src={{ site.baseurl }}/assets/docx/skill_tree_poc.docx"
-        width="100%"
-        height="600px"
-        frameborder="0">
-</iframe>
+{% include office_viewer.html file="assets/docx/skill_tree_poc.docx" %}
 
 
 

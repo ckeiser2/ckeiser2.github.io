@@ -1,0 +1,13 @@
+{% assign full_url = site.url | append: site.baseurl | append: "/" | append: include.file %}
+
+<iframe 
+  src="https://view.officeapps.live.com/op/embed.aspx?src={{ full_url }}"
+  width="{{ include.width | default: '100%' }}"
+  height="{{ include.height | default: '600px' }}"
+  frameborder="0"
+  style="border: 1px solid #ddd; border-radius: 8px;">
+</iframe>
+
+<noscript>
+  <p>View the document directly: <a href="{{ full_url }}">{{ include.file }}</a></p>
+</noscript>
