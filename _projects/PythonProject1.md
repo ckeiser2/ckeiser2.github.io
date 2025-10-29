@@ -26,7 +26,7 @@ Source for Dataset:https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_
 
 ## Jupyter Notebook 
 
-<iframe src="{{ site.baseurl }}/python_notebooks/workbook.html"
+<iframe src="{{ site.baseurl }}/assets/jp_nbs/workbook.html"
         width="100%"
         height="800px"
         frameborder="0"
