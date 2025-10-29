@@ -2,7 +2,7 @@
 name: TEI Solutions
 tools: [Python, Beautiful Soup, Parsing]
 image: assets/pngs/TEI.png
-description: Converting HTML data to TEI 
+description: Converting HTML data to TEI | Data Parsing
 custom_js:
   - vega.min
   - vega-lite.min
@@ -15,9 +15,7 @@ custom_js:
 
 ## TEI Summary
 
-The Text Encoding Initiative (TEI) Guidelines make recommendations about suitable ways of representing those features of textual resources which need to be identified explicitly in order to facilitate processing by computer programs. Essentially it is a standardized way of formatting text in order for programs to process it. Translating Text to TEI helps with cleansing the data for better computing.
-
-
+The Text Encoding Initiative (TEI) Guidelines make recommendations about suitable ways of representing those features of textual resources which need to be identified explicitly in order to facilitate processing by computer programs. Essentially it is a standardized way of formatting text in order for programs to process it. Translating Text to TEI helps with cleansing the data for better computing. Below you will see my jupyter notebook for an assignment revolved around this concept while addressing different questions per the assignment.
 
 
 # Convert html to xml
