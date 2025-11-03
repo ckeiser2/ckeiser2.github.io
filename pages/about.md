@@ -30,4 +30,4 @@ Graduated from the University of Illinois with a Bachelor's in Information Scien
 <div class="row">
 </div>
 
-<embed src="{{ site.baseurl }}/assets/html/Resume_Updated.pdf" alt = "Resume" type="application/pdf" width="100%" height="600px" />
+<embed src="{{ site.baseurl }}/assets/html/Resume2.pdf" alt = "Resume" type="application/pdf" width="100%" height="600px" />
