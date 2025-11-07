@@ -1,5 +1,5 @@
 ---
-name: TF-IDF Text Analysis
+name: 📊 TF-IDF Text Analysis 🐍
 tools: [Python, Pandas]
 image: assets/pngs/speech_graph.png
 description: Python project text analysis using TF-IDF 

@@ -1,5 +1,5 @@
 ---
-name: Network Clustering Analysis
+name: 📊 Network Clustering Analysis 🐍
 tools: [Python, Networkx, Bokeh]
 image: assets/pngs/bokeh_plot (7).png
 description: Python project utilizing networkx

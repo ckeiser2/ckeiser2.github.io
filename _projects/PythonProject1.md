@@ -1,5 +1,5 @@
 ---
-name: Python Interactive Data Visualization
+name: 📊 Python Interactive Data Visualization 🐍
 tools: [Python, ALtair]
 image: assets/pngs/graph.png
 description: Using Python and packages like Altair | Data Analytics | Data Visualization

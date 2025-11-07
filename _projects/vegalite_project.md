@@ -1,5 +1,5 @@
 ---
-name: Vega Lite Project
+name: 📊 Vega Lite Project 🐍
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
 description: This is a project that uses vega-lite for interactive data visualization

@@ -1,5 +1,5 @@
 ---
-name: Text Analysis Visualization
+name: 📊 Text Analysis Visualization 🐍
 tools: [Python, Altair]
 image: assets/pngs/viz.png
 description: Python project | Data Scraping | Altair

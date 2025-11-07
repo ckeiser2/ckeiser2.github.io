@@ -1,5 +1,5 @@
 ---
-name: TEI Solutions
+name: 📊 TEI Solutions 🐍
 tools: [Python, Beautiful Soup, Parsing]
 image: assets/pngs/TEI.png
 description: Converting HTML data to TEI | Data Parsing

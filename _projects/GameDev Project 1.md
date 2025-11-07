@@ -16,8 +16,8 @@ Short project for a class. Utilziing the RPGmaker engine, created a small demo w
 Something I wanted to play around with in this demo was programming cutscenes, character interactions set by triggers from the player. Unique character designs that scale in fun ways. For example I have a marksman character that has an ability called "Luck of the Draw" that scales off their Luck stat. Additionally, different kinds of characters that are unqiue takes on common design archetypes such as Tanks built around bolstering a teammate like my Blacksmith character or more of a typical paladin design.
 
 
-This RPG system was expanded using custom-written Javascript plugins to add modern RPG mechanics.
 ### 🛠 Key Plugins Used
+This RPG system was expanded using custom-written Javascript plugins to add modern RPG mechanics.
 
 ```markdown
 📁 **Plugin Files**
@@ -29,6 +29,8 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 - [vega-lite.min.js]( {{ site.baseurl }}/assets/js/vega-lite.min.js )
 - [vega.min.js]( {{ site.baseurl }}/assets/js/vega.min.js )
 - [vega.min.js.map]( {{ site.baseurl }}/assets/js/vega.min.js.map )
+
+## Embedded video of my demo with commentary
 
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/LX-gkUDabX0"

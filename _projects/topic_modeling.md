@@ -1,5 +1,5 @@
 ---
-name: Topic Modeling
+name: 📊 Topic Modeling 🐍
 tools: [Python, Gensim, MatPlotLib]
 image: assets/pngs/table.png
 description: Topic Modeling with Python
