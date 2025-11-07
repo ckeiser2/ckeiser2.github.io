@@ -1,5 +1,5 @@
 ---
-name: 🎮 RPGMaker game
+name: 🎮 RPGMaker game 🕹️
 tools: [RPGMaker, Javascript Plugin]
 image: assets/pngs/rpg_game.png
 description: Short developer project utilizing javascript
