@@ -23,7 +23,23 @@ For this project I did a text analysis in python using Networkx and Bokeh to mak
 
 *Eigenvector* : Is the measure of a node's "influence" within a network
 
-{% include network.html %}
+## Jupyter Notebook Part 1
+
+<iframe src="{{ site.baseurl }}/assets/jp_nbs/NA1.html"
+        width="100%"
+        height="800px"
+        frameborder="0"
+        style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
+
+## Jupyter Notebook Part 2
+
+<iframe src="{{ site.baseurl }}/assets/jp_nbs/NA2.html"
+        width="100%"
+        height="800px"
+        frameborder="0"
+        style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
 
 
 
