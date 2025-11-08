@@ -10,7 +10,7 @@ custom_js:
   - justcharts
 ---
 
-## Jupyter Notebook Part 1
+## Jupyter Notebook
 
 <iframe src="{{ site.baseurl }}/assets/jp_nbs/ml.html"
         width="100%"
