@@ -3,7 +3,7 @@
   <!-- Local Python Projects -->
   {% for code in site.python %}
     {%- assign code_type  = "local" -%}
-    {%- assign code_id    = code.title | slugify -%}
+    {%- assign code_id    = code.name | slugify -%}
 
     {%- if code.external_img -%}
       {%- assign code_img = code.external_image -%}
@@ -12,7 +12,7 @@
       {%- assign code_img = u[0] | relative_url -%}
     {%- endif -%}
 
-    {%- assign code_name  = code.title -%}
+    {%- assign code_name  = code.name -%}
     {%- assign code_desc  = code.description -%}
     {%- assign code_tools = code.tools -%}
 

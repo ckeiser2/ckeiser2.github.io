@@ -3,7 +3,7 @@
   <!-- Local Games -->
   {% for game in site.games %}
     {%- assign game_type  = "local" -%}
-    {%- assign game_id    = game.title | slugify -%}
+    {%- assign game_id    = game.name | slugify -%}
 
     {%- if game.external_img -%}
       {%- assign game_img = game.external_image -%}
@@ -12,7 +12,7 @@
       {%- assign game_img = u[0] | relative_url -%}
     {%- endif -%}
 
-    {%- assign game_name  = game.title -%}
+    {%- assign game_name  = game.name -%}
     {%- assign game_desc  = game.description -%}
     {%- assign game_tools = game.tools -%}
 
