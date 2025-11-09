@@ -1,5 +1,7 @@
 ---
 name: 📊 Geo Plotting / Analysis 🐍
+permalink: /python/
+layout: default
 tools: [Python, geopy, pandas]
 image: assets/pngs/map.png
 description: Using python libraries to use data over geo maps

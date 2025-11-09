@@ -1,5 +1,7 @@
 ---
 name: 🐍 Machine Learning via Tweets 🤖 🧠
+permalink: /python/
+layout: default
 tools: [Python, Machine Learning]
 image: assets/pngs/ml.png
 description: Training a model and creating a visualization based on "Confidence" of the model using tweets from the president.

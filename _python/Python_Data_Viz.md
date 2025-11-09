@@ -1,5 +1,7 @@
 ---
 name: 📊 Python Interactive Data Visualization 🐍
+permalink: /python/
+layout: default
 tools: [Python, ALtair]
 image: assets/pngs/graph.png
 description: Using Python and packages like Altair | Data Analytics | Data Visualization

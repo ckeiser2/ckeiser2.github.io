@@ -1,5 +1,7 @@
 ---
 name: 📊 Topic Modeling 🐍
+permalink: /python/
+layout: default
 tools: [Python, Gensim, MatPlotLib]
 image: assets/pngs/table.png
 description: Topic Modeling with Python

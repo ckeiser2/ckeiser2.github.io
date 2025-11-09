@@ -40,6 +40,9 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/projects.md
+  - pages/projects.html
+  - projects.md
   - documentation/partials/**                           # For Documentation Only
   - projects.html
   - old_projects.html

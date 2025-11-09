@@ -1,5 +1,7 @@
 ---
 name: 📊 TF-IDF Text Analysis 🐍
+permalink: /python/
+layout: default
 tools: [Python, Pandas]
 image: assets/pngs/speech_graph.png
 description: Python project text analysis using TF-IDF 
