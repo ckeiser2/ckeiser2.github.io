@@ -1,27 +1,21 @@
 <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="{{ code_url }}" class="project card text-themed"
-     {% if external and site.open_new_tab %}target="_blank"{% endif %}>
-    {% if game_img or code_img %}
-      <img id="{{ code_id }}-img" class="card-img-top"
-           src="{{ code_img }}" 
-           alt="{{ code_name }}" />
-    {% endif %}
-
+  <a href="{{ code_url }}" class="project card text-themed" {%- if external and site.open_new_tab -%} target="_blank" {%- endif -%}>
+    {%- if code_img -%}
+    <img id="{{ code_id }}-img" class="card-img-top" src="{{ code_img }}" alt="{{ code_name }}" />
+    {%- endif -%}
     <div class="card-body">
-      <h5 class="card-title">
-        {% if code_type == "remote" %}
+      <h5 id="{{ code_id }}-name" class="card-title">
+          {%- if code_type == "remote" -%}
           <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;
           {%- endif -%}
         {{ code_name }}
       </h5>
-
       <p id="{{ code_id }}-desc" class="card-text">{{ code_desc }}</p>
       <p id="{{ code_id }}-tools" class="card-text">
         {%- for tool in code_tools -%}
         <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
         {%- endfor -%}
-        </p>
-      {% endif %}
+      </p>
     </div>
   </a>
 </div>
