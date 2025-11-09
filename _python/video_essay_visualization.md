@@ -1,7 +1,7 @@
 ---
 name: 📊 Text Analysis Visualization 🐍
 permalink: /python/
-layout: default
+layout: page
 tools: [Python, Altair]
 image: assets/pngs/viz.png
 description: Python project | Data Scraping | Altair

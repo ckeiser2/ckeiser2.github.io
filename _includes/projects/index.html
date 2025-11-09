@@ -10,7 +10,7 @@
       {%- assign game_img = game.external_image -%}
     {%- else -%}
       {%- assign u = game.image | split: "games/" -%}
-      {%- assign game_img = {{u[0]}} | relative_url -%}
+      {%- assign game_img = u[0] | relative_url -%}
   {%- endif -%}
   
 
@@ -82,7 +82,7 @@
       {%- assign code_img = code.external_image -%}
     {%- else -%}
       {%- assign u = code.image | split: "python/" -%}
-      {%- assign code_img = {{u[0]}} | relative_url -%}
+      {%- assign code_img = u[0] | relative_url -%}
   {%- endif -%}
   
 

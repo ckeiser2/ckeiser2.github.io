@@ -1,7 +1,7 @@
 ---
 name: 📊 Text Analysis using Named Entity Recognition 🐍
 permalink: /python/
-layout: default
+layout: page
 tools: [Python, Webscraped Data, APIs]
 image: assets/pngs/found_text.png
 description: Project using webscraped data using pandas and APIs.

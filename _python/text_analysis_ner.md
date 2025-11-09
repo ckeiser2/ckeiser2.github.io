@@ -1,7 +1,7 @@
 ---
 name: 📊 Text Analysis using Named Entity Recognition 🐍
 permalink: /python/
-layout: default
+layout: page
 tools: [Python, POS Tagging, Named Entity Recognition]
 image: assets/pngs/ner.png
 description: Sorting through text using strategies like Named Entity Recognition and POS Tagging

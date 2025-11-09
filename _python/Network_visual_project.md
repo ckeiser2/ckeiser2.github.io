@@ -1,7 +1,7 @@
 ---
 name: 📊 Network Clustering Analysis 🐍
 permalink: /python/
-layout: default
+layout: page
 tools: [Python, Networkx, Bokeh]
 image: assets/pngs/bokeh_plot (7).png
 description: Python project utilizing networkx
