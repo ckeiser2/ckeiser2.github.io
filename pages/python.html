@@ -7,6 +7,7 @@ weight: 2
 <div class="row m-3 mt-5">
   {% for game in site.python %}
     {% assign code_id = proj.name | slugify %}
+    {% include code/index.html %}
     <div class="col-md-4 mb-4">
         {% include code/code-card.html
           code_img=proj.image
