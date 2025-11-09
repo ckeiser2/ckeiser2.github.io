@@ -1,7 +1,7 @@
 ---
 name: 🎮 Godot Game [2048 Knight] 🕹️
 permalink: /games/:name/
-layout: page
+
 tools: [C#, Design, Group Project]
 image: assets/pngs/godot.png
 description: C# in Godot Engine, Designed the UI and multiple systems.
