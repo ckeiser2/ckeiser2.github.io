@@ -3,7 +3,7 @@ title: About
 layout: page
 title: About
 permalink: /about/
-weight: 3
+weight: 4
 ---
 
 # **Overview of Experience**

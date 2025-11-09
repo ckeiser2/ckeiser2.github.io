@@ -2,7 +2,7 @@
 name: 🎮 Barb's Dungeon 🖋️ 🕹️
 tools: [Designer, Game Dev, Group Project]
 permalink: /games/
-layout: default
+layout: page
 image: assets/pngs/barb_dungeon_systems.png
 description: Group project apart of GSD 403 @ UIUC. Over the span of a semester design different aspects of a game.
 custom_js:

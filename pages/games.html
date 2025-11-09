@@ -4,12 +4,14 @@ title: Games 🎮
 permalink: /games/
 weight: 1
 ---
-<div class="card-columns m-3 mt-5">
+<div class="row m-3 mt-5">
   {% for game in site.games %}
-    {% include games/game-card.html
-       game_img=game.image
-       game_name=game.title
-       game_desc=game.description
-       game_url=game.url %}
+    <div class="col-md-4 mb-4">
+      {% include games/game-card.html
+         game_img=game.image
+         game_name=game.name
+         game_desc=game.description
+         game_url=game.url %}
+    </div>
   {% endfor %}
 </div>

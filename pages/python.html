@@ -4,12 +4,16 @@ title: Python 🐍
 permalink: /python/
 weight: 2
 ---
-<div class="card-columns m-3 mt-5">
-  {% for proj in site.python %}
-    {% include code/code-card.html
-       code_img=proj.image
-       code_name=proj.title
-       code_desc=proj.description
-       code_url=proj.url %}
-  {% endfor %}
+<div class="container my-5">
+  <div class="row">
+    {% for proj in site.python %}
+      <div class="col-md-4 mb-4">
+        {% include code/code-card.html
+           code_img=proj.image
+           code_name=proj.name
+           code_desc=proj.description
+           code_url=proj.url %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
