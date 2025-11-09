@@ -1,6 +1,6 @@
 ---
 name: 📊 Vega Lite Project 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png

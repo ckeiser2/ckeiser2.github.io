@@ -1,6 +1,6 @@
 ---
 name: 🐍 Machine Learning via Tweets 🤖 🧠
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, Machine Learning]
 image: assets/pngs/ml.png

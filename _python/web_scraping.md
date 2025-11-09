@@ -1,6 +1,6 @@
 ---
 name: 📊 Text Analysis using Named Entity Recognition 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, Webscraped Data, APIs]
 image: assets/pngs/found_text.png

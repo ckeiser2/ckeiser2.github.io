@@ -1,6 +1,6 @@
 ---
 name: 📊 Python Interactive Data Visualization 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, ALtair]
 image: assets/pngs/graph.png

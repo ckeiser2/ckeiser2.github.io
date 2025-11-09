@@ -1,6 +1,6 @@
 ---
 name: 📊 Topic Modeling 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, Gensim, MatPlotLib]
 image: assets/pngs/table.png

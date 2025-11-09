@@ -1,6 +1,6 @@
 ---
 name: 🎮 Javascript "Choose your own adventure" Story [Playable in browser] 🖋️ 🕹️
-permalink: /games/
+permalink: /games/:name/
 layout: page
 tools: [Twine, HTML/CSS, Javascript, UI, Solo Dev]
 image: assets/pngs/html_story.png

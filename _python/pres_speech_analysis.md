@@ -1,6 +1,6 @@
 ---
 name: 📊 TF-IDF Text Analysis 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, Pandas]
 image: assets/pngs/speech_graph.png

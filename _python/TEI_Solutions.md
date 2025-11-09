@@ -1,6 +1,6 @@
 ---
 name: 📊 TEI Solutions 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, Beautiful Soup, Parsing]
 image: assets/pngs/TEI.png

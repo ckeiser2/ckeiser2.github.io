@@ -1,6 +1,6 @@
 ---
 name: 📊 Text Analysis Visualization 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, Altair]
 image: assets/pngs/viz.png

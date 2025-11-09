@@ -1,6 +1,6 @@
 ---
 name: 🎮 Godot Game [2048 Knight] 🕹️
-permalink: /games/
+permalink: /games/:name/
 layout: page
 tools: [C#, Design, Group Project]
 image: assets/pngs/godot.png

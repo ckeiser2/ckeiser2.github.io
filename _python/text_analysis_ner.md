@@ -1,6 +1,6 @@
 ---
 name: 📊 Text Analysis using Named Entity Recognition 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, POS Tagging, Named Entity Recognition]
 image: assets/pngs/ner.png

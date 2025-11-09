@@ -1,6 +1,6 @@
 ---
 name: 📊 Geo Plotting / Analysis 🐍
-permalink: /python/
+permalink: /python/:name/
 layout: page
 tools: [Python, geopy, pandas]
 image: assets/pngs/map.png
