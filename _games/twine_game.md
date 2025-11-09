@@ -4,6 +4,7 @@ name: ðŸŽ® Javascript "Choose your own adventure" Story [Playable in browser] ðŸ
 
 tools: [Twine, HTML/CSS, Javascript, UI, Solo Dev]
 image: assets/pngs/html_story.png
+layout: page
 description: Choose your own adventure short story, with 18 possible endings.
 custom_js:
   - vega.min

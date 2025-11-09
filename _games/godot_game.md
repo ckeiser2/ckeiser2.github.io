@@ -4,6 +4,7 @@ name: 🎮 Godot Game [2048 Knight] 🕹️
 
 tools: [C#, Design, Group Project]
 image: assets/pngs/godot.png
+layout: page
 description: C# in Godot Engine, Designed the UI and multiple systems.
 custom_js:
   - vega.min

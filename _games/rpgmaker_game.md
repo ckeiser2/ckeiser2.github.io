@@ -4,6 +4,7 @@ name: 🎮 RPGMaker game 🕹️
 
 tools: [RPGMaker, Javascript Plugin]
 image: assets/pngs/rpg_game.png
+layout: page
 description: Short developer project utilizing javascript
 custom_js:
   - vega.min
