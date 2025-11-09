@@ -24,15 +24,6 @@ plugins:
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
 
-nav:
-  - title: "Home"
-    url: /
-  - title: "Games"
-    url: /games/
-  - title: "Python"
-    url: /python/
-  - title: "About"
-    url: /about/
 
 
 ### Navbar Settings ###
