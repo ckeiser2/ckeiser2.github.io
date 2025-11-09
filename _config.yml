@@ -24,12 +24,33 @@ plugins:
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
 
+nav:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+
+
+nav:
+  - title: "Home"
+    url: /
+  - title: "Games"
+    url: /games/
+  - title: "Python"
+    url: /python/
+  - title: "About"
+    url: /about/
+
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
   - documentation/partials/**                           # For Documentation Only
+  - projects.html
+  - old_projects.html
+  - projects/index.html
+  - 404.html
 
 
 ### Author Info ###
@@ -101,7 +122,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: true                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###
