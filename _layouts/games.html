@@ -1,0 +1,11 @@
+---
+layout: default
+title: Games
+permalink: /games/
+---
+<h2>🎮 Game Projects</h2>
+<ul>
+  {% for game in site.games %}
+    <li><a href="{{ game.url }}">{{ game.title }}</a> — {{ game.description }}</li>
+  {% endfor %}
+</ul>

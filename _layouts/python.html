@@ -1,0 +1,11 @@
+---
+layout: default
+title: Python Projects
+permalink: /python/
+---
+<h2>🐍 Python Projects</h2>
+<ul>
+  {% for project in site.python %}
+    <li><a href="{{ project.url }}">{{ project.title }}</a> — {{ project.description }}</li>
+  {% endfor %}
+</ul>

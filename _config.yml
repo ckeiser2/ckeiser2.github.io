@@ -52,11 +52,15 @@ permalink: /blog/:title
 
 ### Collections ###
 collections:
-  projects:
+  games:
     output: true
-    permalink: /projects/:name
+    permalink: /games/:name
+  python:
+    output: true
+    permalink: /python/:name/
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
+  
 
 
 ### Disqus ###
