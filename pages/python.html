@@ -1,23 +1,8 @@
 ---
 layout: default
-title: Python Projects 🐍
+title: Python Projects🐍
 permalink: /python/
 weight: 2
 ---
-<div class="row m-3 mt-5">
-  {% for game in site.python %}
-    {% assign code_id = proj.name | slugify %}
-    <div class="col-md-4 mb-4">
-        {% include code/code-card.html
-          code_img=proj.image
-          code_name=proj.name
-          code_tools=proj.tools
-          code_desc=proj.description
-          code_url=proj.url
-          code_id=code_id
-          code_type="local"
-          external=false %}
-      </div>
-    {% endfor %}
-  </div>
-</div>
+
+{% include code/index.html %}
