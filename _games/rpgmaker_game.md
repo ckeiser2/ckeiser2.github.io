@@ -1,7 +1,7 @@
 ---
 name: 🎮 RPGMaker game 🕹️
 permalink: /games/
-layout: page
+layout: default
 tools: [RPGMaker, Javascript Plugin]
 image: assets/pngs/rpg_game.png
 description: Short developer project utilizing javascript
