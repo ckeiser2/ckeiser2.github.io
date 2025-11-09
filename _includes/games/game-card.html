@@ -1,29 +1,24 @@
 <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="{{ game_url | default: code_url }}" class="project card text-themed"
+  <a href="{{ game_url}}" class="project card text-themed"
      {% if external and site.open_new_tab %}target="_blank"{% endif %}>
-    {% if game_img or code_img %}
-      <img id="{{ game_id | default: code_id }}-img" class="card-img-top"
-           src="{{ game_img | default: code_img }}" 
-           alt="{{ game_name | default: code_name }}" />
+    {% if game_img %}
+      <img id="{{ game_id }}-img" class="card-img-top"
+           src="{{ game_img }}" 
+           alt="{{ game_name }}" />
     {% endif %}
 
     <div class="card-body">
       <h5 class="card-title">
-        {% if game_type == "remote" or code_type == "remote" %}
+        {% if game_type == "remote" %}
           <i class="fab fa-github" title="GitHub Repository"></i> |&nbsp;
         {% endif %}
         {{ game_name | default: code_name }}
       </h5>
-
-      {% if game_desc or code_desc %}
-        <p class="card-text">{{ game_desc | default: code_desc }}</p>
-      {% endif %}
-
-      {% if game_tools or code_tools %}
-        <p class="card-text">
-          {% for tool in game_tools | default: code_tools %}
-            <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
-          {% endfor %}
+      <p id="{{ game_id }}-desc" class="card-text">{{ game_desc }}</p>
+      <p id="{{ game_id }}-tools" class="card-text">
+        {%- for tool in game_tools -%}
+        <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
+        {%- endfor -%}
         </p>
       {% endif %}
     </div>
