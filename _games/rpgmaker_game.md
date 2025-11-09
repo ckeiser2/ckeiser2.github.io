@@ -1,6 +1,6 @@
 ---
 name: 🎮 RPGMaker game 🕹️
-permalink: /games/:name/
+#permalink: /games/:name/
 
 tools: [RPGMaker, Javascript Plugin]
 image: assets/pngs/rpg_game.png
