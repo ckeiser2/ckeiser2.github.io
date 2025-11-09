@@ -27,19 +27,13 @@ port: 4008
 nav:
   - title: "Home"
     url: /
-  - title: "Projects"
-    url: /projects/
-
-
-nav:
-  - title: "Home"
-    url: /
   - title: "Games"
     url: /games/
   - title: "Python"
     url: /python/
   - title: "About"
     url: /about/
+
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
