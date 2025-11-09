@@ -1,48 +1,48 @@
 <div class="card-columns m-3 mt-5">
 
-  <!-- Local games -->
-  {% for game in site.games %}
+  <!-- Local Projects -->
+  {% for project in site.projects %}
 
-    {%- assign game_type  = "local" -%}
-    {%- assign game_id    = game.name | slugify -%}
+    {%- assign project_type  = "local" -%}
+    {%- assign project_id    = project.name | slugify -%}
 
-    {%- if game.external_img -%}
-      {%- assign game_img = game.external_image -%}
+    {%- if project.external_img -%}
+      {%- assign project_img = project.external_image -%}
     {%- else -%}
-      {%- assign u = game.image | split: "games/" -%}
-      {%- assign game_img = u[0] | relative_url -%}
+      {%- assign u = project.image | split: "projects/" -%}
+      {%- assign project_img = {{u[0]}} | relative_url -%}
   {%- endif -%}
   
 
-    {%- assign game_name  = game.name -%}
-    {%- assign game_desc  = game.description -%}
-    {%- assign game_tools = game.tools -%}
+    {%- assign project_name  = project.name -%}
+    {%- assign project_desc  = project.description -%}
+    {%- assign project_tools = project.tools -%}
 
-    {%- if game.external_url -%}
-      {%- assign game_url = game.external_url -%}
+    {%- if project.external_url -%}
+      {%- assign project_url = project.external_url -%}
       {%- assign external    = true -%}
     {%- else -%}
-      {%- assign game_url = game.url | relative_url -%}
+      {%- assign project_url = project.url | relative_url -%}
       {%- assign external    = false -%}
     {%- endif -%}
 
-    {% include games/game-card.html %}
+    {% include projects/project-card.html %}
 
   {% endfor %}
 
 
 
 
-  <!-- Remote games -->
-  {% for remote_game in page.remote_games %}
+  <!-- Remote Projects -->
+  {% for remote_project in page.remote_projects %}
 
   {% if site.github.private != true and site.github.license %}
    {%- for repo in site.github.public_repositories -%}
 
-    {%- if remote_game == repo.name -%}
+    {%- if remote_project == repo.name -%}
 
-        {%- assign game = repo -%}
-        {%- assign words = game.name | split: '-' -%}
+        {%- assign project = repo -%}
+        {%- assign words = project.name | split: '-' -%}
         
         {%- capture titlecase -%}
           {%- for word in words -%}
@@ -50,16 +50,16 @@
           {%- endfor -%}
         {%- endcapture -%}
 
-        {%- assign game_type  = "remote" -%}
-        {%- assign game_id    = game.name -%}
-        {%- assign game_img   = false -%}
-        {%- assign game_name  = titlecase | strip -%}
-        {%- assign game_desc  = game.description -%}
-        {%- assign game_url   = game.html_url -%}
-        {%- assign game_tools = game.topics -%}
+        {%- assign project_type  = "remote" -%}
+        {%- assign project_id    = project.name -%}
+        {%- assign project_img   = false -%}
+        {%- assign project_name  = titlecase | strip -%}
+        {%- assign project_desc  = project.description -%}
+        {%- assign project_url   = project.html_url -%}
+        {%- assign project_tools = project.topics -%}
         {%- assign external      = true -%}
 
-        {% include games/project-card.html %}
+        {% include projects/project-card.html %}
 
       {%- endif -%}
 
@@ -70,74 +70,3 @@
   {% endfor %}
 </div>
 
-<div class="card-columns m-3 mt-5">
-
-  <!-- Local codes -->
-  {% for code in site.python %}
-
-    {%- assign code_type  = "local" -%}
-    {%- assign code_id    = code.name | slugify -%}
-
-    {%- if code.external_img -%}
-      {%- assign code_img = code.external_image -%}
-    {%- else -%}
-      {%- assign u = code.image | split: "python/" -%}
-      {%- assign code_img = u[0] | relative_url -%}
-  {%- endif -%}
-  
-
-    {%- assign code_name  = code.name -%}
-    {%- assign code_desc  = code.description -%}
-    {%- assign code_tools = code.tools -%}
-
-    {%- if code.external_url -%}
-      {%- assign code_url = code.external_url -%}
-      {%- assign external    = true -%}
-    {%- else -%}
-      {%- assign code_url = code.url | relative_url -%}
-      {%- assign external    = false -%}
-    {%- endif -%}
-
-    {% include codes/code-card.html %}
-
-  {% endfor %}
-
-
-
-
-  <!-- Remote codes -->
-  {% for remote_code in page.remote_python %}
-
-  {% if site.github.private != true and site.github.license %}
-   {%- for repo in site.github.public_repositories -%}
-
-    {%- if remote_code == repo.name -%}
-
-        {%- assign code = repo -%}
-        {%- assign words = code.name | split: '-' -%}
-        
-        {%- capture titlecase -%}
-          {%- for word in words -%}
-            {{ word | capitalize | append: ' ' }}
-          {%- endfor -%}
-        {%- endcapture -%}
-
-        {%- assign code_type  = "remote" -%}
-        {%- assign code_id    = code.name -%}
-        {%- assign code_img   = false -%}
-        {%- assign code_name  = titlecase | strip -%}
-        {%- assign code_desc  = code.description -%}
-        {%- assign code_url   = code.html_url -%}
-        {%- assign code_tools = code.topics -%}
-        {%- assign external      = true -%}
-
-        {% include python/project-card.html %}
-
-      {%- endif -%}
-
-    {%- endfor -%}
-
-  {%- endif -%}
-
-  {% endfor %}
-</div>

@@ -1,0 +1,71 @@
+<div class="card-columns m-3 mt-5">
+
+  <!-- Local codes -->
+  {% for code in site.python %}
+
+    {%- assign code_type  = "local" -%}
+    {%- assign code_id    = code.name | slugify -%}
+
+    {%- if code.external_img -%}
+      {%- assign code_img = code.external_image -%}
+    {%- else -%}
+      {%- assign u = code.image | split: "python/" -%}
+      {%- assign code_img = u[0] | relative_url -%}
+  {%- endif -%}
+  
+
+    {%- assign code_name  = code.name -%}
+    {%- assign code_desc  = code.description -%}
+    {%- assign code_tools = code.tools -%}
+
+    {%- if code.external_url -%}
+      {%- assign code_url = code.external_url -%}
+      {%- assign external    = true -%}
+    {%- else -%}
+      {%- assign code_url = code.url | relative_url -%}
+      {%- assign external    = false -%}
+    {%- endif -%}
+
+    {% include codes/code-card.html %}
+
+  {% endfor %}
+
+
+
+
+  <!-- Remote codes -->
+  {% for remote_code in page.remote_python %}
+
+  {% if site.github.private != true and site.github.license %}
+   {%- for repo in site.github.public_repositories -%}
+
+    {%- if remote_code == repo.name -%}
+
+        {%- assign code = repo -%}
+        {%- assign words = code.name | split: '-' -%}
+        
+        {%- capture titlecase -%}
+          {%- for word in words -%}
+            {{ word | capitalize | append: ' ' }}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- assign code_type  = "remote" -%}
+        {%- assign code_id    = code.name -%}
+        {%- assign code_img   = false -%}
+        {%- assign code_name  = titlecase | strip -%}
+        {%- assign code_desc  = code.description -%}
+        {%- assign code_url   = code.html_url -%}
+        {%- assign code_tools = code.topics -%}
+        {%- assign external      = true -%}
+
+        {% include python/project-card.html %}
+
+      {%- endif -%}
+
+    {%- endfor -%}
+
+  {%- endif -%}
+
+  {% endfor %}
+</div>

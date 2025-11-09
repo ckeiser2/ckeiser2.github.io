@@ -2,10 +2,14 @@
 layout: default
 title: Python 🐍
 permalink: /python/
-weight: 1
-remote_projects:
-  - is507_spring2021
-  - online_cv_public
+weight: 2
 ---
-
-{% include projects/index.html %}
+<div class="card-columns m-3 mt-5">
+  {% for proj in site.python %}
+    {% include codes/code-card.html
+       code_img=proj.image
+       code_name=proj.title
+       code_desc=proj.description
+       code_url=proj.url %}
+  {% endfor %}
+</div>

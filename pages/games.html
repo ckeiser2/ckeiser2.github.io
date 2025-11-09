@@ -3,9 +3,13 @@ layout: default
 title: Games 🎮
 permalink: /games/
 weight: 1
-remote_projects:
-  - is507_spring2021
-  - online_cv_public
 ---
-
-{% include projects/index.html %}
+<div class="card-columns m-3 mt-5">
+  {% for game in site.games %}
+    {% include games/game-card.html
+       game_img=game.image
+       game_name=game.title
+       game_desc=game.description
+       game_url=game.url %}
+  {% endfor %}
+</div>
