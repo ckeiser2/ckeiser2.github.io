@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Colton Keiser
 description         : >-
-                      Welcome to my portfolio! {To see projects click on the icon in the top right}
+                      Welcome to my portfolio! To see projects refer to tabs in the top right.
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : ckeiser2                    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
