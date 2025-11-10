@@ -34,26 +34,26 @@ As the designer I aided in the completion of our design documents but additonall
 ```markdown
 📁 **Godot Scripts**
 
-### Helper functions for Pause Menu
+##### Helper functions for Pause Menu
 - [pause_menu.gd]( {{ site.baseurl }}/assets/godot/scripts/pause_menu.gd )
 
-### Place holder player character for testing purposes
+##### Place holder player character for testing purposes
 - [player.gd]( {{ site.baseurl }}/assets/godot/scripts/player.gd )
 
-### Main PauseMenu testing script
+##### Main PauseMenu testing script
 - [PauseMenu.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu.gd )
 
-### Rewritten Pausemenu scripts to accommodate for LTS Godot version
+##### Rewritten Pausemenu scripts to accommodate for LTS Godot version
 - [PauseMenu2.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.gd )
 - [PauseMenu2.tscn]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.tscn )
 
-### Inventory and item system scripts
+##### Inventory and item system scripts
 - [inventory.gd]( {{ site.baseurl }}/assets/godot/scripts/inventory.gd )
 - [inventory.tscn]( {{ site.baseurl }}/assets/godot/scripts/inventory.tscn )
 - [item.gd]( {{ site.baseurl }}/assets/godot/scripts/item.gd )
 - [item.tscn]( {{ site.baseurl }}/assets/godot/scripts/item.tscn )
 
-### Updates the item slots animation depending on if an item is placed in it or not
+#### Updates the item slots animation depending on if an item is placed in it or not
 - [slot1.gd]( {{ site.baseurl }}/assets/godot/scripts/slot1.gd )
 
 
