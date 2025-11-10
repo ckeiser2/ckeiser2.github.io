@@ -57,12 +57,12 @@ As the designer I aided in the completion of our design documents but additonall
 - [slot1.gd]( {{ site.baseurl }}/assets/godot/scripts/slot1.gd )
 
 
-### Link to Design Docs and Demo video
+##### Link to google drive w/ Design Docs
 <div class="left">
 {% include elements/button.html link="https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing" text="Google Drive with Design Documents" %}
 </div>
 
-### Link to github repo
+##### Link to github repo/ project code
 <div class="right">
 {% include elements/button.html link="https://github.com/LukeAlbarracin/2048-Knight/tree/main" text="Github Repo" %}
 </div>
