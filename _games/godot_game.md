@@ -63,7 +63,7 @@ slot.gd
   {% endcase %}
 
   ```gdscript
-  {% include_relative assets/godot/scripts/{{ script | strip }} %}
+  {% include_relative ../../assets/godot/scripts/{{ script | strip }} %}
 </details> {% endfor %}
 
 
