@@ -27,43 +27,41 @@ Group project using Godot (A game engine that uses C#) where I served as lead de
 </iframe>
 
 ### 🛠 Scripts I wrote
-As the designer I aided in the completion of our design documents but additonally with my technical background implemented a few core systems to aid the developers on the team including the pause/quit menu, item and inventory systems.
 
+As the designer I aided in the completion of our design documents but additionally, with my technical background, implemented a few core systems to aid the developers on the team including the pause/quit menu, item and inventory systems.
 
+<details>
+  <summary><strong>📁 View Godot Scripts</strong></summary>
 
-```markdown
-📁 **Godot Scripts**
+  ##### Helper functions for Pause Menu  
+  - [pause_menu.gd]({{ site.baseurl }}/assets/godot/scripts/pause_menu.gd)
 
-##### Helper functions for Pause Menu
-- [pause_menu.gd]( {{ site.baseurl }}/assets/godot/scripts/pause_menu.gd )
+  ##### Place holder player character for testing purposes  
+  - [player.gd]({{ site.baseurl }}/assets/godot/scripts/player.gd)
 
-##### Place holder player character for testing purposes
-- [player.gd]( {{ site.baseurl }}/assets/godot/scripts/player.gd )
+  ##### Main PauseMenu testing script  
+  - [PauseMenu.gd]({{ site.baseurl }}/assets/godot/scripts/PauseMenu.gd)
 
-##### Main PauseMenu testing script
-- [PauseMenu.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu.gd )
+  ##### Rewritten Pausemenu scripts to accommodate for LTS Godot version  
+  - [PauseMenu2.gd]({{ site.baseurl }}/assets/godot/scripts/PauseMenu2.gd)  
+  - [PauseMenu2.tscn]({{ site.baseurl }}/assets/godot/scripts/PauseMenu2.tscn)
 
-##### Rewritten Pausemenu scripts to accommodate for LTS Godot version
-- [PauseMenu2.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.gd )
-- [PauseMenu2.tscn]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.tscn )
+  ##### Inventory and item system scripts  
+  - [inventory.gd]({{ site.baseurl }}/assets/godot/scripts/inventory.gd)  
+  - [inventory.tscn]({{ site.baseurl }}/assets/godot/scripts/inventory.tscn)  
+  - [item.gd]({{ site.baseurl }}/assets/godot/scripts/item.gd)  
+  - [item.tscn]({{ site.baseurl }}/assets/godot/scripts/item.tscn)
 
-##### Inventory and item system scripts
-- [inventory.gd]( {{ site.baseurl }}/assets/godot/scripts/inventory.gd )
-- [inventory.tscn]( {{ site.baseurl }}/assets/godot/scripts/inventory.tscn )
-- [item.gd]( {{ site.baseurl }}/assets/godot/scripts/item.gd )
-- [item.tscn]( {{ site.baseurl }}/assets/godot/scripts/item.tscn )
+  ##### Updates the item slots animation depending on if an item is placed in it or not  
+  - [slot1.gd]({{ site.baseurl }}/assets/godot/scripts/slot1.gd)
 
-#### Updates the item slots animation depending on if an item is placed in it or not
-- [slot1.gd]( {{ site.baseurl }}/assets/godot/scripts/slot1.gd )
+  ##### Link to Google Drive w/ Design Docs  
+  <div class="left">
+  {% include elements/button.html link="https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing" text="Google Drive with Design Documents" %}
+  </div>
 
-
-##### Link to google drive w/ Design Docs
-<div class="left">
-{% include elements/button.html link="https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing" text="Google Drive with Design Documents" %}
-</div>
-
-##### Link to github repo/ project code
-<div class="right">
-{% include elements/button.html link="https://github.com/LukeAlbarracin/2048-Knight/tree/main" text="Github Repo" %}
-</div>
-
+  ##### Link to GitHub Repo / Project Code  
+  <div class="right">
+  {% include elements/button.html link="https://github.com/LukeAlbarracin/2048-Knight/tree/main" text="GitHub Repo" %}
+  </div>
+</details>

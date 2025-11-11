@@ -1,0 +1,18 @@
+details {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 10px;
+  background-color: var(--card-bg, #f8f9fa);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--accent, #007bff);
+}
+
+details[open] {
+  background-color: var(--card-bg-hover, #fff);
+}
