@@ -30,30 +30,35 @@ Group project using Godot (A game engine that uses C#) where I served as lead de
 
 As the designer I aided in the completion of our design documents but additionally, with my technical background, implemented a few core systems to aid the developers on the team including the pause/quit menu, item and inventory systems.
 
-<details>
-  <summary><strong>📁 View Godot Scripts</strong></summary>
+---
 
-  ##### Helper functions for Pause Menu  
-  - [pause_menu.gd]({{ site.baseurl }}/assets/godot/scripts/pause_menu.gd)
+#### 📁 Godot Scripts
+<details>
+  <summary><strong>pause_menu.gd</strong></summary>
+  ##### Helper functions for Pause Menu
+
+  {% include_relative ../assets/godot/scripts/pause_menu.gd %}
 
   ##### Place holder player character for testing purposes  
-  - [player.gd]({{ site.baseurl }}/assets/godot/scripts/player.gd)
+  {% include_relative ../assets/godot/scripts/player.gd %}
 
-  ##### Main PauseMenu testing script  
-  - [PauseMenu.gd]({{ site.baseurl }}/assets/godot/scripts/PauseMenu.gd)
-
+  ##### Main PauseMenu testing script 
+  {% include_relative ../assets/godot/scripts/PauseMenu.gd %}
+ 
   ##### Rewritten Pausemenu scripts to accommodate for LTS Godot version  
-  - [PauseMenu2.gd]({{ site.baseurl }}/assets/godot/scripts/PauseMenu2.gd)  
-  - [PauseMenu2.tscn]({{ site.baseurl }}/assets/godot/scripts/PauseMenu2.tscn)
+  {% include_relative ../assets/godot/scripts/PauseMenu2.gd %}
+  {% include_relative ../assets/godot/scripts/PauseMenu2.tscn %}
+
 
   ##### Inventory and item system scripts  
-  - [inventory.gd]({{ site.baseurl }}/assets/godot/scripts/inventory.gd)  
-  - [inventory.tscn]({{ site.baseurl }}/assets/godot/scripts/inventory.tscn)  
-  - [item.gd]({{ site.baseurl }}/assets/godot/scripts/item.gd)  
-  - [item.tscn]({{ site.baseurl }}/assets/godot/scripts/item.tscn)
+  {% include_relative ../assets/godot/scripts/inventory.gd %}
+  {% include_relative ../assets/godot/scripts/inventory.tscn %}
+  {% include_relative ../assets/godot/scripts/item.gd %}
+  {% include_relative ../assets/godot/scripts/item.tscn %}
 
-  ##### Updates the item slots animation depending on if an item is placed in it or not  
-  - [slot1.gd]({{ site.baseurl }}/assets/godot/scripts/slot1.gd)
+
+  ##### Updates the item slots animation depending on if an item is placed in it or not 
+    {% include_relative ../assets/godot/scripts/slot1.gd %}
 
   ##### Link to Google Drive w/ Design Docs  
   <div class="left">
