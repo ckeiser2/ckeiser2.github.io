@@ -32,48 +32,40 @@ As the designer I aided in the completion of our design documents but additional
 
 ---
 
-#### 📁 Godot Scripts
+📁 **Godot Scripts**
 
-{% assign scripts = "
-pause_menu.gd,
-player.gd,
-PauseMenu.gd,
-PauseMenu2.gd,
-PauseMenu2.tscn,
-inventory.gd,
-inventory.tscn,
-item.gd,
-item.tscn,
-slot.gd
-" | split: "," %}
+##### Helper functions for Pause Menu
+- [pause_menu.gd]( {{ site.baseurl }}/assets/godot/scripts/pause_menu.gd )
 
-{% for script in scripts %}
-<details>
-  <summary><strong>{{ script | strip }}</strong></summary>
+##### Place holder player character for testing purposes
+- [player.gd]( {{ site.baseurl }}/assets/godot/scripts/player.gd )
 
-  {% case script | strip %}
-  {% when "pause_menu.gd" %}
-  ##### Helper functions for Pause Menu
-  {% when "player.gd" %}
-  ##### Placeholder player character for testing
-  {% when "PauseMenu2.gd" %}
-  ##### Updated PauseMenu script for LTS Godot version
-  {% when "slot.gd" %}
-  ##### Updates item slot animations when items are added/removed
-  {% endcase %}
-
-  ```gdscript
-  {% include_relative ../../assets/godot/scripts/{{ script | strip }} %}
-</details> {% endfor %}
+##### Main PauseMenu testing script
+- [PauseMenu.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu.gd )
 
 
-  ##### Link to Google Drive w/ Design Docs  
-  <div class="left">
-  {% include elements/button.html link="https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing" text="Google Drive with Design Documents" %}
-  </div>
+##### Rewritten Pausemenu scripts to accommodate for LTS Godot version
+- [PauseMenu2.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.gd )
+- [PauseMenu2.tscn]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.tscn )
 
-  ##### Link to GitHub Repo / Project Code  
-  <div class="right">
-  {% include elements/button.html link="https://github.com/LukeAlbarracin/2048-Knight/tree/main" text="GitHub Repo" %}
-  </div>
-</details>
+
+
+##### Inventory and item system scripts
+- [inventory.gd]( {{ site.baseurl }}/assets/godot/scripts/inventory.gd )
+- [inventory.tscn]( {{ site.baseurl }}/assets/godot/scripts/inventory.tscn )
+- [item.gd]( {{ site.baseurl }}/assets/godot/scripts/item.gd )
+- [item.tscn]( {{ site.baseurl }}/assets/godot/scripts/item.tscn )
+
+#### Updates the item slots animation depending on if an item is placed in it or not
+- [slot1.gd]( {{ site.baseurl }}/assets/godot/scripts/slot1.gd )
+
+
+##### Link to google drive w/ Design Docs
+<div class="left">
+{% include elements/button.html link="https://drive.google.com/drive/folders/1K3kAyzcWXABthIY7s9kPn_uHCcTR0HU6?usp=sharing" text="Google Drive with Design Documents" %}
+</div>
+
+##### Link to github repo/ project code
+<div class="right">
+{% include elements/button.html link="https://github.com/LukeAlbarracin/2048-Knight/tree/main" text="Github Repo" %}
+</div>
