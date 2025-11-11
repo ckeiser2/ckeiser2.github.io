@@ -24,7 +24,8 @@ plugins:
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
 
-
+markdown: kramdown
+highlighter: rouge        #highlights text
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
