@@ -33,48 +33,39 @@ As the designer I aided in the completion of our design documents but additional
 ---
 
 #### 📁 Godot Scripts
+
+{% assign scripts = "
+pause_menu.gd,
+player.gd,
+PauseMenu.gd,
+PauseMenu2.gd,
+PauseMenu2.tscn,
+inventory.gd,
+inventory.tscn,
+item.gd,
+item.tscn,
+slot.gd
+" | split: "," %}
+
+{% for script in scripts %}
 <details>
-  <summary><strong>pause_menu.gd</strong></summary>
+  <summary><strong>{{ script | strip }}</strong></summary>
+
+  {% case script | strip %}
+  {% when "pause_menu.gd" %}
   ##### Helper functions for Pause Menu
+  {% when "player.gd" %}
+  ##### Placeholder player character for testing
+  {% when "PauseMenu2.gd" %}
+  ##### Updated PauseMenu script for LTS Godot version
+  {% when "slot.gd" %}
+  ##### Updates item slot animations when items are added/removed
+  {% endcase %}
 
-  {% include_relative ../../assets/godot/scripts/pause_menu.gd %}
+  ```gdscript
+  {% include_relative ../../assets/godot/scripts/{{ script | strip }} %}
+</details> {% endfor %}
 
-</details> <details> <summary><strong>player.gd</strong></summary>
-
-  ##### Place holder player character for testing purposes  
-  {% include_relative ../../assets/godot/scripts/player.gd %}
-
-</details> <details> <summary><strong>PauseMenu.gd</strong></summary>
-
-  ##### Main PauseMenu testing script 
-  {% include_relative ../../assets/godot/scripts/PauseMenu.gd %}
- 
- </details> <details> <summary><strong>PauseMenu2.gd</strong></summary>
-
-  ##### Rewritten Pausemenu scripts to accommodate for LTS Godot version  
-  {% include_relative ../../assets/godot/scripts/PauseMenu2.gd %}
-
-  </details> <details> <summary><strong>PauseMenu2.tscn</strong></summary>
-  {% include_relative ../../assets/godot/scripts/PauseMenu2.tscn %}
-
- </details> <details> <summary><strong>inventory.gd</strong></summary>
-
-  ##### Inventory and item system scripts  
-  {% include_relative ../../assets/godot/scripts/inventory.gd %}
-
-  </details> <details> <summary><strong>inventory.tscn</strong></summary>
-  {% include_relative ../../assets/godot/scripts/inventory.tscn %}
-
-  </details> <details> <summary><strong>item.gd</strong></summary>
-  {% include_relative ../../assets/godot/scripts/item.gd %}
-
-  </details> <details> <summary><strong>item.tscn</strong></summary>
-  {% include_relative ../../assets/godot/scripts/item.tscn %}
-
-  </details> <details> <summary><strong>slot.gd</strong></summary>
-
-  ##### Updates the item slots animation depending on if an item is placed in it or not 
-    {% include_relative ../../assets/godot/scripts/slot1.gd %}
 
   ##### Link to Google Drive w/ Design Docs  
   <div class="left">
