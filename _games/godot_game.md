@@ -38,7 +38,7 @@ As the designer I aided in the completion of our design documents but additional
 - [pause_menu.gd]( {{ site.baseurl }}/assets/godot/scripts/pause_menu.gd )
 <img src="{{ site.baseurl }}/assets/godot/assets/pause_menu.png" alt="Pause Menu>
 
-```gdscript
+```cs
 extends Control
 
 @onready var main = $"../../"
@@ -55,7 +55,7 @@ func _on_quit_pressed():
 ##### Place holder player character for testing purposes
 - [player.gd]( {{ site.baseurl }}/assets/godot/scripts/player.gd )
 
-```gdscript
+```cs
 extends CharacterBody2D
 
 @export var MAX_SPEED = 300
@@ -68,10 +68,7 @@ extends CharacterBody2D
 
 func _physics_process(delta):
 	move(delta)
-	
-	
-	
-	
+
 func get_input_axis():
 	axis.x=int(Input.is_action_pressed("move_right")) - int(Input.is_action_pressed("move_left"))
 	axis.y=int(Input.is_action_pressed("move_down")) - int(Input.is_action_pressed("move_up"))
@@ -105,7 +102,9 @@ func apply_movement(accel):
 ```
 ##### Main PauseMenu testing script
 - [PauseMenu.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu.gd )
-```gdscript
+
+```cs
+
 extends Node2D
 
 @onready var PauseMenu = $Camera2D/PauseMenu
@@ -126,12 +125,14 @@ func pauseMenu():
 		Engine.time_scale = 0
 			
 	paused= !paused
+
 ```
 
 ##### Rewritten Pausemenu scripts to accommodate for LTS Godot version
 - [PauseMenu2.gd]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.gd )
 
-```gdscript
+```cs
+
 extends Control
 
 var is_paused = false setget set_is_paused
@@ -154,11 +155,12 @@ func _on_Resume_pressed():
 
 func _on_Quit_pressed():
 	get_tree().quit()
+
 ```
 
 - [PauseMenu2.tscn]( {{ site.baseurl }}/assets/godot/scripts/PauseMenu2.tscn )
 
-```gdscript
+```cs
 [gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://PauseMenu2.gd" type="Script" id=1]
@@ -219,7 +221,7 @@ text = "Quit"
 ##### Inventory and item system scripts
 - [inventory.gd]( {{ site.baseurl }}/assets/godot/scripts/inventory.gd )
 
-```gdscript
+```cs
 extends Node2D
 
 const SlotClass = preload("res://Slot1.gd")
@@ -255,7 +257,7 @@ func _input(event):
 
 - [inventory.tscn]( {{ site.baseurl }}/assets/godot/scripts/inventory.tscn )
 
-```gdscript
+```cs
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://default_inventory_background.png" type="Texture" id=1]
@@ -394,12 +396,14 @@ margin_bottom = 85.0
 rect_min_size = Vector2( 25, 25 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 3 )
+
 ```
 
 #### Item script only takes into account two different items for testing beta purposes
 - [item.gd]( {{ site.baseurl }}/assets/godot/scripts/item.gd )
 
 ```gdscript
+
 extends Node2D
 
 func _ready():
@@ -407,11 +411,13 @@ func _ready():
 		$TextureRect.texture = load("res://Slime Potion.png")
 	else:
 		$TextureRect.texture = load("res://Tree Branch.png")
+
 ```
 
 - [item.tscn]( {{ site.baseurl }}/assets/godot/scripts/item.tscn )
 
-```gdscript
+```cs
+
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Item.gd" type="Script" id=1]
@@ -426,12 +432,15 @@ margin_right = 40.0
 margin_bottom = 40.0
 mouse_filter = 2
 texture = ExtResource( 2 )
+
 ```
 
 
 #### Updates the item slots animation depending on if an item is placed in it or not
 - [slot1.gd]( {{ site.baseurl }}/assets/godot/scripts/slot1.gd )
-```gdscript
+
+```cs
+
 extends Panel
 
 var default_tex = preload("res://item_slot_default_background.png")
@@ -468,8 +477,6 @@ func putIntoSlot(new_item):
 	inventoryNode.remove_child(item)
 	add_child(item)
 	refresh_style()	
-
-
 
 func refresh_style():
 	if item == null:
