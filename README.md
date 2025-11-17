@@ -49,6 +49,12 @@ Project layouts can be modified in `_includes/projects`.
 
 See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
 
+if jupter notebook ".ipynb" try convert to html and embedding via the bash script 
+
+```bash
+jupyter nbconvert --to html notebook_name.ipynb
+```
+
 ## Python notebooks
 
 Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `python_notebooks` folder.  In theory you can do fancy local linking with it, but it hasn't been implemented yet.
