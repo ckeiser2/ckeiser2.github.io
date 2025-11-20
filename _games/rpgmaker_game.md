@@ -32,6 +32,7 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 - [vega-lite.min.js]( {{ site.baseurl }}/assets/js/vega-lite.min.js )
 - [vega.min.js]( {{ site.baseurl }}/assets/js/vega.min.js )
 - [vega.min.js.map]( {{ site.baseurl }}/assets/js/vega.min.js.map )
+```
 
 ## Embedded video of my demo with commentary
 
