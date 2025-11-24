@@ -1,5 +1,5 @@
 ---
-name: 🎮 Twine Story 🖋️ 🕹️
+name: 🎮 Twine Game - "A Myconid's Story"🖋️ 🕹️
 #permalink: /games/:name/
 
 tools: [Twine, HTML/CSS, Playable, Choose your own adventure]
