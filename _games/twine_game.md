@@ -1,11 +1,11 @@
 ---
-name: 🎮 Twine "Choose your own adventure" Story [Playable in browser] 🖋️ 🕹️
+name: 🎮 Twine Story 🖋️ 🕹️
 #permalink: /games/:name/
 
-tools: [Twine, HTML/CSS, Javascript, UI, Solo Dev]
+tools: [Twine, HTML/CSS, Playable, Choose your own adventure]
 image: assets/pngs/html_story.png
 layout: default
-description: Choose your own adventure short story, with 18 possible endings.
+description: Choose your own adventure short story, with 18 possible endings. Playable within Browser.
 custom_js:
   - vega.min
   - vega-lite.min
