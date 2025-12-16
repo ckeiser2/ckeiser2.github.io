@@ -28,7 +28,7 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
   <summary><strong>AltMenuScreen.js</strong></summary>
 
   {% highlight javascript %}
-  {% include_relative ../../assets/js/AltMenuScreen.js %}
+  {% assets/js/AltMenuScreen.js %}
   {% endhighlight %}
 
 </details>
