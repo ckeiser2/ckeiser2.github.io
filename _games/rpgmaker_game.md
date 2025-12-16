@@ -24,12 +24,8 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 
 ```markdown
 📁 **Plugin Files**
-<details class="script-dropdown">
-  <summary><strong>AltMenuScreen.js</strong></summary>
 
-  {% highlight javascript %}
-  {% assets/js/AltMenuScreen.js %}
-  {% endhighlight %}
+- [AltMenuScreen.js]( {{ site.baseurl }}/assets/js/AltMenuScreen.js )
 
 </details>
 
