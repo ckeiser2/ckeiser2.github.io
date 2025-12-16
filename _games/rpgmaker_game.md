@@ -24,14 +24,15 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 
 ```markdown
 📁 **Plugin Files**
-- [justcharts.js]( {{ site.baseurl }}/assets/js/justcharts.js )
-- [lightgallery.min.js]( {{ site.baseurl }}/assets/js/SkillTree.js )
-- [theme.min.js]( {{ site.baseurl }}/assets/js/theme.js )
-- [vega-embed.min.js]( {{ site.baseurl }}/assets/js/vega-embed.min..js )
-- [vega-embed.min.js.map]( {{ site.baseurl }}/assets/js/vega-embed.min.js.map )
-- [vega-lite.min.js]( {{ site.baseurl }}/assets/js/vega-lite.min.js )
-- [vega.min.js]( {{ site.baseurl }}/assets/js/vega.min.js )
-- [vega.min.js.map]( {{ site.baseurl }}/assets/js/vega.min.js.map )
+<details class="script-dropdown">
+  <summary><strong>AltMenuScreen.js</strong></summary>
+
+  {% highlight javascript %}
+  {% include_relative ../../assets/js/AltMenuScreen.js %}
+  {% endhighlight %}
+
+</details>
+
 ```
 
 ## Embedded video of my demo with commentary
