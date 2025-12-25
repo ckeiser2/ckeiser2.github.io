@@ -2,7 +2,7 @@
 name: 🎮 Godot Game [2048 Knight] 🕹️
 #permalink: /games/:name/
 
-tools: [C#, Designer, Godot]
+tools: [C#, Designer, Programmer, Godot]
 image: assets/pngs/godot.png
 layout: page
 description: C# in Godot Engine, Designed the UI and multiple systems.
@@ -15,6 +15,8 @@ custom_js:
 ## Skills Showcased
 *Godot:* *In-Engine Tools* 
 *- Languages:C#*
+
+##### Role: System Designer // UI Programmer
 
 
 **Description**

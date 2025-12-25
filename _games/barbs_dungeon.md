@@ -12,6 +12,7 @@ custom_js:
   - justcharts
 ---
 
+##### Role: Systems Designer, Narrative Writer
 
 This project was a group project where over the span of a few weeks my group was tasked with designing a game. I was tasked with the main responsibilities of creating core systems to the game including *Player Experience, Level Design and Core Systems*. Also, while writing the narrative in which I was inspired by other RPGs such as *Fear and Hunger, Dark Souls, Dark and Darker*. | Below you will a see button that will take you to the google drive where my team and I collaborated on design documents including Proof of concepts, Tone Targets, Beat by Beat and more below!
 

@@ -12,7 +12,10 @@ custom_js:
   - vega-embed.min
   - justcharts
 ---
-##### Goal of this project is to redesign Rivals of Aether II character Galvin! Specifically the characters main mechanic galvinazation!
+
+##### Role: Solo Designer
+
+#### Goal of this project is to redesign Rivals of Aether II character Galvin! Specifically the characters main mechanic galvinazation!
 
 For my character redesign I chose a character from a personal favorite game series of mine "**Rivals of Aether**". This is a platform fighter that is heavily inspired by the fast paced combat seen in the Super Smash Bros series. What is notable in this game series is it's character designs as every character has an "aether" or elemental focus that they have dynamically integrated within their kits. This is usually shown through an emphasis on stage control (i.e. covering the stage in smoke, ice or a crytsal field). These elements will range from the 4 major kingdoms in the game fire, water, wind and earth. For the character we will be discussing **Galvin**, is affiliated with an earth related element with it's aether being metal/magnetism. 
 
