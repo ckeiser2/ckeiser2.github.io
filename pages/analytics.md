@@ -11,4 +11,10 @@ weight: 5
 Using google tag manager the accumulated analytics from this site from Dec 2025 - Jan 2026 for visibility.
 
 
-<img src="{{ site.baseurl }}/assets/pngs/analytics.png" alt="analytics">
+
+<embed
+  src="{{ site.baseurl }}/assets/pdf/analytics.pdf"
+  type="application/pdf"
+  width="100%"
+  height="800px"
+/>
