@@ -1,5 +1,5 @@
 ---
-name: 🎮 Concept Redesign 🕹️
+name: 🎮 Concept Redesign ROR2 🕹️
 #permalink: /games/:name/
 
 tools: [Design]
