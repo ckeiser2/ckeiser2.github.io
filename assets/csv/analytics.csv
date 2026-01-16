@@ -1,0 +1,95 @@
+# ----------------------------------------
+# User behavior
+# Account: keiser-analytics
+# Property: kize02
+# ----------------------------------------
+#  
+# Start date: 20251219
+# End date: 20260115
+Active users,New users,Average engagement time per active user,Event count
+7,6,33.142857142857146,80
+
+#  
+# Start date: 20251219
+# End date: 20260115
+Page title and screen class,Views,Active users,Event count,Bounce rate
+Colton Keiser,8,6,27,0.625
+Game Projects 🎮,6,2,21,0.25
+Python Projects🐍,4,1,12,0
+Concept_redesign,2,1,5,0
+Machine_learning,2,1,5,0
+Rpgmaker_game,2,2,6,0
+Godot_game,1,1,2,0
+Twine_game,1,1,2,0
+
+#  
+# Start date: 20251219
+# End date: 20260115
+First user source / medium,Active users
+(direct) / (none),6
+bing / organic,1
+
+#  
+# Start date: 20251219
+# End date: 20260115
+Session source / medium,Sessions
+(direct) / (none),9
+bing / organic,1
+
+#  
+# Start date: 20251219
+# End date: 20260115
+Nth day,new,returning
+0000,0,0
+0001,0,0
+0002,0,0
+0003,0,0
+0004,1,0
+0005,0,0
+0006,0,0
+0007,0,0
+0008,0,0
+0009,0,0
+0010,0,0
+0011,0,0
+0012,0,0
+0013,0,0
+0014,0,0
+0015,0,0
+0016,0,0
+0017,0,0
+0018,1,1
+0019,0,0
+0020,0,0
+0021,0,1
+0022,0,0
+0023,4,1
+0024,0,0
+0025,0,0
+0026,0,1
+0027,0,0
+
+# How does activity on your platforms compare?
+# Start date: 20251219
+# End date: 20260115
+Platform,Key events
+
+
+#  
+# Start date: 20251219
+# End date: 20260115
+City,Active users
+Aspen,2
+Ashburn,1
+Chicago,1
+Council Bluffs,1
+Hillsboro,1
+Middletown,1
+O'Fallon,1
+Richmond Heights,1
+
+#  
+# Start date: 20251219
+# End date: 20260115
+Audience name,Active users
+All Users,7
