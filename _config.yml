@@ -45,7 +45,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Colton Keiser
-  image             : https://ischool.illinois.edu/sites/default/files/styles/small/public/images/Colton%20Keiser-2.png?itok=jLskezYv
+  image             : assets/jpg/pfp.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : colton.dev02@gmail.com
