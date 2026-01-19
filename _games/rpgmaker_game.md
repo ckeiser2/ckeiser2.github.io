@@ -34,8 +34,30 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 
 ## Embedded video of my demo with commentary
 
+##### V1 of demo
+
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/LX-gkUDabX0"
     frameborder="0"
     allowfullscreen>
 </iframe>
+
+##### V2 of demo
+
+<iframe width="560" height="315"
+    src="https://www.youtube.com/embed/LX-gkUDabX0"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+
+## ▶ Play the Game
+
+<div class="game-frame">
+  <iframe
+    src="{{ site.baseurl }}/assets/games/rpgmaker/Project1/index.html"
+    width="100%"
+    height="640"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
