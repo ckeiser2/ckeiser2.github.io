@@ -1,5 +1,5 @@
 ---
-name: 🎮 RPGMaker game 🕹️
+name: 🎮 RPGMaker game [Playable in Browser] 🕹️
 #permalink: /games/:name/
 
 tools: [RPGMaker, Javascript Plugin]
