@@ -59,6 +59,9 @@ On Mouse and Keyboard:
 
 Arrow keys / Mouse: Movement
 Space bar: Interacting
+
+On home screen:
+Options > to Control Volume.
 """
 ```
 
