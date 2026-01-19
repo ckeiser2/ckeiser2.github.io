@@ -45,7 +45,7 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 ##### V2 of demo
 
 <iframe width="560" height="315"
-    src="https://www.youtube.com/watch?v=q-YCqnow7U8"
+    src="https://www.youtube.com/embed/q-YCqnow7U8"
     frameborder="0"
     allowfullscreen>
 </iframe>
