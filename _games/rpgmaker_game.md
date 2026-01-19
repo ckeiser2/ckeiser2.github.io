@@ -51,8 +51,8 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 </iframe>
 
 ## ▶ Play the Game (Volume Warning!!!)
-
-"""md
+```python
+"""
 Keybindings:
 
 On Mouse and Keyboard:
@@ -60,6 +60,8 @@ On Mouse and Keyboard:
 Arrow keys / Mouse: Movement
 Space bar: Interacting
 """
+```
+
 <div class="game-frame">
   <iframe
     src="{{ site.baseurl }}/assets/games/rpgmaker/Project1/index.html"
