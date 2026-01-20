@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Site Analytics
+title: Site Analytics 🔍
 permalink: /analytics/
 weight: 5
 ---

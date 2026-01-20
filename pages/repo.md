@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Repo
+title: Repo 📝
 permalink: /repo/
 weight: 6
 ---
