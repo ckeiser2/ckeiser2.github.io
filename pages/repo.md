@@ -9,7 +9,7 @@ weight: 6
 *Link to Github Repo: https://github.com/ckeiser2/ckeiser2.github.io*
 
 
-### ReadMe (Updated as of 1/20/2026)
+# ----------- ReadMe (Updated as of 1/20/2026) -----------
 
 # Jekyll Template for Static Site Generation
 
