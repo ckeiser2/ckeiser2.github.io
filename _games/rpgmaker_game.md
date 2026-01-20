@@ -32,7 +32,7 @@ This RPG system was expanded using custom-written Javascript plugins to add mode
 
 ```
 
-## Embedded video of my demo with commentary
+## Embedded video of my demos with commentary
 
 ##### V1 of demo
 
