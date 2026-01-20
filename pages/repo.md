@@ -11,11 +11,11 @@ weight: 6
 
 # -- ReadMe (Updated as of 1/20/2026) --
 
-# Jekyll Template for Static Site Generation
+## Jekyll Template for Static Site Generation
 
  It is a way to host an online CV with interactive visualizations.
 
-# How to use this repo
+## How to use this repo
 
 ## Download & install
 

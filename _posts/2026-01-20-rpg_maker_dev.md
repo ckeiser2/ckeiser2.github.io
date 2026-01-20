@@ -14,6 +14,8 @@ Exploration of the first demo I ever made in the game engine RPGMaker, vs revisi
 
 ##### V1 of demo
 
+With version one of the demo this was built out originally as a project for the UIUC Game Studies and Design minor. The purpose was to showcase building out cutscenes, puzzles, and design levels for a demo. 
+
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/LX-gkUDabX0"
     frameborder="0"
@@ -21,6 +23,8 @@ Exploration of the first demo I ever made in the game engine RPGMaker, vs revisi
 </iframe>
 
 ##### V2 of demo
+
+I revisted the demo after a period of time to align many of the maps I had designed with a congruent story. Although short the demo is more unified and still showcases my ability to build out cutscenes, puzzles, events, and levels within a unified demo. Additionally, I added many smaller interactions to encourage exploration and to make many corners of maps feel worth exploring.
 
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/q-YCqnow7U8"
