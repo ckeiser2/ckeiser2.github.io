@@ -93,7 +93,7 @@ You can see further examples in the `_example_posts` directory.
 
 This is an amalgamation of [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) and [4dcu.be](https://github.com/4dcu-be/4dcu.be).
 
-Additonally, updates to this page to increase the number of tabs and different project types and the site analytics page were down by **Colton Keiser**. 
+Additonally, updates to this page to increase the number of tabs and different project types and the site analytics page were done by **Colton Keiser**. 
 
 [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) was used for:
  * overall style, taking off a few elements -- Blog, About, Projects all are included here
