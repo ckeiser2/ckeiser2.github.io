@@ -8,7 +8,7 @@ weight: 6
 ##### For further information on how this page was created. 
 *Link to Github Repo: https://github.com/ckeiser2/ckeiser2.github.io*
 
-```markdown
+
 ### ReadMe (Updated as of 1/20/2026)
 
 # Jekyll Template for Static Site Generation
@@ -64,13 +64,13 @@ Project layouts can be modified in `_includes/projects`. Refer to the `index.htm
 See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
 
 As embedding an html is fairly easy, if your projects are stored in a jupter notebook ".ipynb" try convert to html and embedding via the bash script 
-```
+
 
 ```bash
 jupyter nbconvert --to html notebook_name.ipynb
 ```
 
-```markdown
+
 ## Python notebooks
 
 Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `assets/jp_nbs` folder.
@@ -119,4 +119,3 @@ trying to install with: bundle install --path ~/.gem
 bundle exec jekyll serve --> without the l for live reload if something else is running?
 
 NOTE!!! it is quite likely that you have to serve the site locally and/or delete _site before pushing for your changes to go live.  I AM NOT SURE.  Have to re-start after you do a change to the config.yml file
-```
