@@ -64,11 +64,13 @@ Project layouts can be modified in `_includes/projects`. Refer to the `index.htm
 See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
 
 As embedding an html is fairly easy, if your projects are stored in a jupter notebook ".ipynb" try convert to html and embedding via the bash script 
+```
 
 ```bash
 jupyter nbconvert --to html notebook_name.ipynb
 ```
 
+```markdown
 ## Python notebooks
 
 Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `assets/jp_nbs` folder.
