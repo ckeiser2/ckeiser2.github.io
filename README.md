@@ -36,20 +36,21 @@ Edit info in:
 ## Projects
 
 Add project files in: 
- * `_projects` to add page files
- * `pages/projects.html` under `remote_projects` for links to your github projects.  Note: this will ONLY link to your repos and you must specify the end of your repo URL (see example)
+ * `_games` to add page files
+ * `_python` to add page files
+ * `pages/games.html` `pages/python.html` for links to your github projects.  Note: this will ONLY link to your repos and you must specify the end of your repo URL (see example)
 
 You can link both project pages and github repositories.  Github repos will autopopulate, pages allow you to provide more details.
 
 By default, the project pages go first, but you can modify this if you want any github repos to show up first.
 
-Project pages can be added by adding markdown files in the `_projects` folder.
+Project pages can be added by adding markdown files in the `_games` or `_python` folders.
 
-Project layouts can be modified in `_includes/projects`.
+Project layouts can be modified in `_includes/projects`. Refer to the `index.html` and `project-card.html` as reference.
 
 See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
 
-if jupter notebook ".ipynb" try convert to html and embedding via the bash script 
+As embedding an html is fairly easy, if your projects are stored in a jupter notebook ".ipynb" try convert to html and embedding via the bash script 
 
 ```bash
 jupyter nbconvert --to html notebook_name.ipynb
@@ -57,12 +58,11 @@ jupyter nbconvert --to html notebook_name.ipynb
 
 ## Python notebooks
 
-Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `python_notebooks` folder.  In theory you can do fancy local linking with it, but it hasn't been implemented yet.
+Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `assets/jp_nbs` folder.
 
 ## Altair-saved chart json's
 
 By default these are saved in `assets/json/` and static images are saved in `assets/pngs/`.  See the example 
-
 
 ## Blog Posts
 

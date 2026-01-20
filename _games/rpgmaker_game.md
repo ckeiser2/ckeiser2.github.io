@@ -20,6 +20,10 @@ Short project for a class. Utilziing the RPGmaker engine, created a small demo w
 
 Something I wanted to play around with in this demo was programming cutscenes, character interactions set by triggers from the player. Unique character designs that scale in fun ways. For example I have a marksman character that has an ability called "Luck of the Draw" that scales off their Luck stat. Additionally, different kinds of characters that are unqiue takes on common design archetypes such as Tanks built around bolstering a teammate like my Blacksmith character or more of a typical paladin design.
 
+##### Blog
+
+Visit the blog on this portfolio page to get an insight into the development of this project.
+Link to Blog: https://ckeiser2.github.io/blog/rpg_maker_dev
 
 ### 🛠 Key Plugins Used
 This RPG system was expanded using custom-written Javascript plugins to add modern RPG mechanics.

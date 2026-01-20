@@ -1,13 +1,14 @@
 ---
 title: RPGMaker Development
-tags: [Technology, Blogging]
+tags: [RPGMaker, Game Dev, Blogging]
 style: fill
 color: secondary
 description: Development in RpgMaker and my experience revisiting an old project to make a full front to back demo.
 ---
 
-##### Exploration of the first demo I ever made in the game engine RPGMaker vs revisiting the engine later on to refine it with a beginning and ending. Additionally, adding in new puzzles, enemies, items, and little suprises along the way. 
-
+```markdown
+Exploration of the first demo I ever made in the game engine RPGMaker, vs revisiting the engine later on to refine it with a beginning and ending. Additionally, adding in new puzzles, enemies, items, and little suprises along the way. 
+```
 
 ## Embedded video of my demo with commentary
 
