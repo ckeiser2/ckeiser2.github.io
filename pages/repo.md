@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Repo 📝
+title: Repo | ReadMe.md📝
 permalink: /repo/
 weight: 6
 ---
@@ -8,6 +8,7 @@ weight: 6
 ##### For further information on how this page was created. 
 *Link to Github Repo: https://github.com/ckeiser2/ckeiser2.github.io*
 
+### Below is the ReadMe
 
 # -- ReadMe (Updated as of 1/20/2026) --
 
