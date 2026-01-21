@@ -11,7 +11,7 @@
  1. Install using `bundle install` 
  1. Host locally with `bundle exec jekyll serve` or `bundle exec jekyll serve -l` (live reload)
  1. Modify files as needed (see sections below)
- 1. Will need to go into github repos settings > source to run from your main branch to launch to github pages
+ 1. Will need to go into github repos settings > pages to run from your main branch to launch to github pages
  1. Make sure repo name is formatted specifically {user_name}.github.io or jekyll theme may not load correctly
 
 ## General configurations
