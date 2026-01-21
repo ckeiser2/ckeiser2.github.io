@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Repo | ReadMe.md📝
+title: Repo | Documentation📝
 permalink: /repo/
 weight: 6
 ---
