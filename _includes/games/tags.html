@@ -1,53 +1,31 @@
-<h1 class="mt-4">Tags</h1>
-
-{% assign all_docs = site.posts | concat: site.games | concat: site.python %}
-{% assign raw_tags = "" %}
-
-{%- for doc in all_docs -%}
-  {%- if doc.tags -%}
-    {%- assign raw_tags = raw_tags | append: doc.tags | join:'|' | append:'|' -%}
-  {%- endif -%}
-
-  {%- if doc.tools -%}
-    {%- assign raw_tags = raw_tags | append: doc.tools | join:'|' | append:'|' -%}
+<!-- Collect tags from all posts -->
+{%- assign tags = blank -%}
+{%- for post in site.posts -%}
+  {%- assign post_tags = post.tags | join:'|' | append:'|' -%}
+  {%- if post_tags != '|' -%}
+    {%- assign tags = tags | append:post_tags -%}
   {%- endif -%}
 {%- endfor -%}
+{%- assign tags = tags | split:'|' | uniq | sort -%}
 
-{% assign tags = raw_tags | split:'|' | uniq | sort %}
-
+<!-- List tags & related posts -->
 {% for tag in tags %}
-  {% if tag != "" %}
-  <div class="py-3">
-    <h4 id="{{ tag | slugify }}">{{ tag }}</h4>
-    <ul>
-      {% for doc in all_docs %}
-        {% assign doc_tags = "" %}
-
-        {% if doc.tags %}
-          {% assign doc_tags = doc.tags %}
-        {% elsif doc.tools %}
-          {% assign doc_tags = doc.tools %}
-        {% endif %}
-
-        {% if doc_tags contains tag %}
-          {% if doc.external_url %}
-            {% assign url = doc.external_url %}
-          {% else %}
-            {% assign url = doc.url | relative_url %}
-          {% endif %}
-
-          <li>
-            <a href="{{ url }}">
-              {{ doc.title | default: doc.name }}
-            </a>
-            <small class="text-muted">
-              — {{ doc.collection | capitalize | default: "Post" }}
-            </small>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <hr>
-  {% endif %}
+<div class="py-3">
+  <h4 id="{{ tag | slugify }}">{{ tag }}</h4>
+  <ol>
+  {% for post in site.posts %}
+    {%- if post.tags contains tag -%}
+      {%- if post.external_url -%}
+        {%- assign url = post.external_url -%}
+      {%- else -%}
+        {%- assign url = post.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>{{ post.title }}</li></a>
+    <small class="text-muted"> - {{ post.date | date_to_long_string }}</small>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+  </ol>
+</div>
+<hr class="bg-light">
 {% endfor %}

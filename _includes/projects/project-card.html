@@ -15,12 +15,6 @@
         {%- for tool in project_tools -%}
         <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
         {%- endfor -%}
-        {% for tool in game.tools %}
-    <a href="{{ '/tags/#' | append: tool | slugify | relative_url }}"
-     class="badge badge-pill text-primary border border-primary ml-1">
-      {{ tool }}
-    </a>
-    {% endfor %}
 
       </p>
     </div>
