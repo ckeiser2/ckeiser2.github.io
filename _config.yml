@@ -40,6 +40,8 @@ nav_exclude:                                            # The following paths ar
   - old_projects.html
   - projects/index.html
   - 404.html
+  - pages/tags_games.html
+  - pages/tags_pyhon.html
 
 
 ### Author Info ###
