@@ -30,7 +30,7 @@ Creative writing DND-esque story with multiple endings written in HTML and CSS a
 There are sections throughout the game below where your choices will effect other choices. In the middle of the game you can choose three different kinds of quests. When you choose the "Dungeon Quest" the game remembers 5 outcomes to dice you roll at a tavern. Refer to the below backend:
 
 ##### Your rolls
-```js
+```twee
 You choose the Dungeon Quest hanging on the bulletin board. It calls for the exploration of the abandon Dwarven mines of Skarsgarl. You remember the Myconid colony of the Astarians now live in these dungeons. There will be a journey to the mines ,hopefully your party is both ready... and *lucky*...
 
 	Before the group leaves Brimly introduces you to one of the games in the tavern.
@@ -52,7 +52,7 @@ After seeing your *luck* you are ready for your journey.
 [ [[Path to Skarsgarl]] ]
 ```
 ##### Your rolls dictacting which dialgoue options you have.
-```js
+```twee
 The party leaves the small village with no guarntee they will return to collect their prize of 500 Gold. The group decides to cut through the Orlan's Thicket, a densly packed forest with narrow paths that'll make traversal challenging for the group. 
 
 (if: $unite is true) [
