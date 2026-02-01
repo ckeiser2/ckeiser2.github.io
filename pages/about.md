@@ -6,6 +6,7 @@ weight: 4
 ---
 
 # **Overview of Experience**
+##### *Note* : Currently transferring site assets to new domain: please refer to https://ckeiser2.github.io/portfolio/ as new main portfolio for Colton Keiser
 
 Hi I am **{{ site.author.name }}**,<br>
 Graduated from the University of Illinois with a Bachelor's in Information Sciences and a Minor in Game Studies and Design in Spring 2024. Currently working as an IT Auditor for a consulting firm while also involved in their internal application/tool development team as a python backend developer. Feel free to reach out to me with the links below!
