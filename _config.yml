@@ -46,7 +46,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Colton Keiser
-  image             : assets/pngs/pfp.png
+  image             : assets/pngs/me_pic.png
 #  behance           : your_username
 # dribbble          : your_username
   email             : colton.dev02@gmail.com
